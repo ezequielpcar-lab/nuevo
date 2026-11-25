@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CaptaWeb · Negocios sin web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{--pk:#ff2e88;--pk2:#ff8fc0;--pk3:#3a0d22;--bk:#0b0b0d;--bk2:#141418;--bk3:#1e1e24;--ln:#2c2c35;--tx:#f4f1f3;--mu:#a59ea4;--ok:#2ee6a6;--wa:#ffc247}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bk);color:var(--tx);font:16px/1.5 Archivo,system-ui,sans-serif;overflow-x:clip}
+a{color:var(--pk2)}
+button,input,select{font:inherit;color:inherit}
+header{border-bottom:4px solid var(--pk);background:linear-gradient(180deg,#000 0%,var(--bk) 100%)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 max(4vw,16px)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
+.logo{font-weight:900;font-stretch:120%;font-size:24px;letter-spacing:-.5px}
+.logo b{color:var(--pk)}
+.hero{padding:28px 0 32px}
+h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:0 0 10px;font-weight:900;font-stretch:115%;text-wrap:balance}
+.sub{color:var(--mu);max-width:62ch;margin:0 0 24px}
+form.search{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(0,1.3fr) minmax(0,1fr) auto;gap:10px;background:var(--bk2);border:1px solid var(--ln);border-radius:16px;padding:12px}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--mu)}
+input,select{background:var(--bk);border:1px solid var(--ln);border-radius:10px;padding:11px 12px;min-height:46px;font-size:16px;width:100%}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--pk);outline-offset:1px}
+.btn{background:var(--pk);color:#fff;border:0;border-radius:12px;padding:0 22px;min-height:46px;font-weight:800;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#ff4b99}.btn:disabled{opacity:.5;cursor:wait}
+.btn.ghost{background:transparent;border:1px solid var(--ln);color:var(--tx);font-weight:600}
+.btn.ghost:hover{border-color:var(--pk)}
+.btn.sm{min-height:38px;padding:0 12px;font-size:14px;border-radius:10px}
+.search .go{align-self:end}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:16px 0}
+.chip{border:1px solid var(--ln);background:var(--bk2);border-radius:999px;padding:8px 14px;min-height:40px;cursor:pointer;font-size:14px}
+.chip[aria-pressed=true]{background:var(--pk);border-color:var(--pk);color:#fff;font-weight:700}
+.chip .n{opacity:.75;margin-left:4px}
+.grow{flex:1}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:4px 0 8px}
+.stat{background:var(--bk2);border:1px solid var(--ln);border-radius:14px;padding:14px 16px}
+.stat .v{font-size:clamp(24px,3.4vw,36px);font-weight:900;font-stretch:115%;line-height:1}
+.stat .k{color:var(--mu);font-size:13px;margin-top:4px}
+.stat.hot{background:var(--pk);border-color:var(--pk)}.stat.hot .k{color:#ffe0ee}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;padding:8px 0 48px}
+.card{background:var(--bk2);border:1px solid var(--ln);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:10px;content-visibility:auto;contain-intrinsic-size:320px}
+.card:hover{border-color:#4a2a3a}
+.card.done{opacity:.55}
+.ch{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.nm{font-weight:800;font-size:18px;line-height:1.2}
+.cat{color:var(--mu);font-size:13px}
+.tag{font-size:12px;font-weight:800;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.t-none{background:var(--pk);color:#fff}
+.t-old{background:var(--wa);color:#1a1200}
+.t-ok{background:#1d3b31;color:var(--ok)}
+.info{display:grid;gap:4px;font-size:14px}
+.info div{display:flex;gap:8px}.info span:first-child{color:var(--mu);width:74px;flex:none}
+.info a{word-break:break-all}
+.why{font-size:13px;color:var(--wa)}
+.price{background:var(--pk3);border:1px solid #5c1838;border-radius:12px;padding:12px}
+.price .row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.price .big{font-size:24px;font-weight:900;font-stretch:112%;color:#fff;white-space:nowrap}
+.price .mt{color:var(--pk2);font-weight:700;white-space:nowrap}
+.price .src{font-size:12px;color:var(--mu)}
+.ai{font-size:14px;border-top:1px solid #5c1838;margin-top:8px;padding-top:8px;display:grid;gap:6px}
+.ai ul{margin:0;padding-left:18px}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}
+.acts a{text-decoration:none;display:inline-flex;align-items:center}
+.empty{padding:60px 0;text-align:center;color:var(--mu)}
+.empty b{color:var(--tx);display:block;font-size:20px;margin-bottom:6px}
+.load{height:4px;background:var(--bk3);overflow:hidden;border-radius:2px;visibility:hidden}
+.load.on{visibility:visible}
+.load i{display:block;height:100%;width:35%;background:var(--pk);animation:ld 1s infinite ease-in-out}
+@keyframes ld{from{transform:translateX(-100%)}to{transform:translateX(300%)}}
+@media(prefers-reduced-motion:reduce){.load i{animation:none;width:100%}}
+.msg{font-size:14px;color:var(--mu);min-height:22px}
+.msg.err{color:#ff7a9c}
+dialog{background:var(--bk2);color:var(--tx);border:1px solid var(--pk);border-radius:18px;max-width:560px;width:calc(100% - 32px);padding:22px}
+dialog::backdrop{background:#000b}
+dialog h2{margin:0 0 6px;font-size:24px}
+dialog p{color:var(--mu);font-size:14px}
+dialog .f{margin-top:10px}
+dialog{max-height:92vh;overflow-y:auto;max-width:640px}
+dialog h3{font-size:15px;margin:20px 0 0;color:var(--pk2)}
+dialog .hint{font-size:12px;margin:6px 0 0}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px}
+@media(max-width:520px){.g2{grid-template-columns:minmax(0,1fr)}}
+textarea{background:var(--bk);border:1px solid var(--ln);border-radius:10px;padding:11px 12px;font:15px/1.45 inherit;width:100%;margin-top:10px;resize:vertical;color:var(--tx)}
+.btn.wa{background:#25d366;color:#04210f}.btn.wa:hover{background:#3fe27c}
+.addon{font-size:13px;color:var(--tx);margin-top:6px;display:flex;justify-content:space-between;gap:8px}
+.addon b{color:var(--pk2);white-space:nowrap}
+.dr{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--pk);color:#fff;padding:10px 18px;border-radius:999px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9}
+.toast.on{opacity:1}
+.mapbox{position:relative;height:440px;border-radius:16px;overflow:hidden;border:1px solid var(--ln);background:var(--bk3);margin:8px 0 4px}
+#map{position:absolute;inset:0}
+.legend{position:absolute;left:10px;bottom:10px;z-index:500;background:#0b0b0de6;border:1px solid var(--ln);border-radius:10px;padding:6px 10px;font-size:12px;display:flex;gap:10px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--bk2)!important;color:var(--tx)!important;border:1px solid var(--pk)}
+.leaflet-popup-content{margin:12px 14px!important;font:14px/1.4 Archivo,system-ui,sans-serif}
+.leaflet-popup-content b{font-size:15px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--mu)}
+.leaflet-control-attribution{background:#0b0b0dcc!important;color:var(--mu)!important}.leaflet-control-attribution a{color:var(--pk2)!important}
+.leaflet-bar a{background:var(--bk2)!important;color:var(--tx)!important;border-color:var(--ln)!important}
+.card.flash{border-color:var(--pk);box-shadow:0 0 0 3px #ff2e8855}
+@media(max-width:600px){.mapbox{height:320px}}
+footer{border-top:1px solid var(--ln);color:var(--mu);font-size:13px;padding:20px 0 30px}
+@media(max-width:860px){form.search{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.search .zona{grid-column:1/-1}.search .go{grid-column:1/-1}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){.grid{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="top">
+   <div class="logo">Capta<b>Web</b></div>
+   <button class="btn ghost sm" id="cfgBtn" type="button">⚙ Ajustes (opcional)</button>
+  </div>
+  <div class="hero">
+   <h1>Encuentra negocios sin web<br>y véndeles la suya.</h1>
+   <p class="sub">Busca por zona de España, detecta quién no tiene página o la tiene anticuada, y obtén contacto, enlace a Google y un precio orientativo de venta y mantenimiento.</p>
+   <form class="search" id="sf">
+    <label class="f zona">Zona (ciudad, barrio, pueblo o código postal)
+     <input id="zona" required placeholder="Ej: Ruzafa, Valencia" autocomplete="off"></label>
+    <label class="f">Sector
+     <select id="sector">
+      <option value="all">Todos los sectores</option>
+      <option value="food">Restauración y bares</option>
+      <option value="shop">Comercios y tiendas</option>
+      <option value="beauty">Peluquería y estética</option>
+      <option value="health">Salud y clínicas</option>
+      <option value="pro">Profesionales y oficinas</option>
+      <option value="craft">Oficios y talleres</option>
+      <option value="hotel">Alojamiento y turismo</option>
+      <option value="sport">Gimnasios y deporte</option>
+     </select></label>
+    <label class="f">Radio
+     <select id="radio">
+      <option value="500">500 m</option>
+      <option value="1000" selected>1 km</option>
+      <option value="2000">2 km</option>
+      <option value="5000">5 km</option>
+      <option value="10000">10 km</option>
+      <option value="20000">20 km</option>
+      <option value="30000">30 km</option>
+      <option value="60000">60 km</option>
+      <option value="100000">100 km</option>
+     </select></label>
+    <button class="btn go" id="goBtn">Buscar negocios</button>
+   </form>
+  </div>
+ </div>
+</header>
+
+<main class="wrap">
+ <div class="load" id="load"><i></i></div>
+ <p class="msg" id="msg"></p>
+ <section id="res" hidden>
+  <div class="stats" id="stats"></div>
+  <div class="mapbox"><div id="map"></div><div class="legend"><span><i style="background:#ff2e88"></i>Sin web</span><span><i style="background:#ffc247"></i>Web mejorable</span><span><i style="background:#2ee6a6"></i>Con web</span></div></div>
+  <div class="bar">
+   <button class="chip" data-f="opp" aria-pressed="true">Oportunidades</button>
+   <button class="chip" data-f="none" aria-pressed="false">Sin web</button>
+   <button class="chip" data-f="old" aria-pressed="false">Web mejorable</button>
+   <button class="chip" data-f="all" aria-pressed="false">Todos</button>
+   <span class="grow"></span>
+   <input id="q" placeholder="Filtrar por nombre o calle" style="max-width:240px">
+   <label class="chip" style="display:inline-flex;gap:6px;align-items:center"><input type="checkbox" id="onlyPhone" style="width:auto;min-height:0"> Con teléfono</label>
+   <button class="btn ghost sm" id="csvBtn" type="button">Exportar CSV</button>
+  </div>
+  <div class="grid" id="grid"></div>
+ </section>
+ <div class="empty" id="intro"><b>Empieza escribiendo una zona</b>Los datos vienen de OpenStreetMap; comprueba cada negocio en Google antes de llamar.</div>
+</main>
+
+<footer><div class="wrap">Datos de negocios © colaboradores de OpenStreetMap (ODbL) · Geocodificación: Nominatim · Precios orientativos, ajústalos en Ajustes.</div></footer>
+
+<dialog id="cfg">
+ <h2>Configura tu negocio</h2>
+ <p>Tus datos y precios se usan en las fichas, en los mensajes de WhatsApp y en el análisis con IA.</p>
+ <h3>Tus datos</h3>
+ <div class="g2">
+  <label class="f">Tu nombre o empresa<input id="kBrand" placeholder="Ej: Laura · Webs con IA"></label>
+  <label class="f">Tu teléfono<input id="kMyPhone" placeholder="Ej: 600 000 000"></label>
+  <label class="f" style="grid-column:1/-1">Tu web o portfolio (opcional)<input id="kMyWeb" placeholder="Ej: tuweb.es"></label>
+ </div>
+ <h3>Precio de una web nueva por sector (pago único, €)</h3>
+ <div class="g2" id="pGrid"></div>
+ <div class="g2">
+  <label class="f">Descuento si ya tiene web y es rediseño (%)<input id="kRedesign" type="number" min="0" max="90" step="5"></label>
+  <label class="f">Mantenimiento mensual (€)<input id="kMaint" type="number" step="5" min="0"></label>
+  <label class="f">Extra reservas/citas online (€)<input id="kResv" type="number" step="10" min="0"></label>
+  <label class="f">Mantenimiento extra de reservas (€/mes)<input id="kResvM" type="number" step="1" min="0"></label>
+ </div>
+ <h3>Mensaje de WhatsApp</h3>
+ <textarea id="kWa" rows="6"></textarea>
+ <p class="hint">Se rellenan solas: {negocio} {tipo} {zona} {motivo} {extra} {precio} {mantenimiento} {mi_nombre} {mi_telefono} {mi_web}. Si analizas un negocio con IA, la IA redacta un mensaje personalizado.</p>
+ <h3>Inteligencia artificial</h3>
+ <div class="g2">
+  <label class="f">Clave API de Anthropic<input id="kKey" type="password" placeholder="sk-ant-..." autocomplete="off"></label>
+  <label class="f">Modelo<input id="kModel" placeholder="claude-sonnet-5-5"></label>
+ </div>
+ <div class="dr"><button class="btn ghost sm" type="button" id="cfgReset" style="margin-right:auto">Restablecer</button><button class="btn ghost sm" type="button" id="cfgX">Cancelar</button><button class="btn sm" type="button" id="cfgOk">Guardar</button></div>
+</dialog>
+<div class="toast" id="toast"></div>
+
+<script>
+{
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ls={get(k,d){try{const v=localStorage.getItem('cw_'+k);return v===null?d:JSON.parse(v)}catch{return d}},set(k,v){try{localStorage.setItem('cw_'+k,JSON.stringify(v))}catch{}}};
+const toast=t=>{const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),1800)};
+
+/* ======== TU CONFIGURACIÓN POR DEFECTO ========
+   Estos valores se usan en cualquier dispositivo. Lo que cambies en "Mi negocio y precios"
+   se guarda en ese navegador y tiene prioridad. */
+const DEF={
+ brand:'',myPhone:'',myWeb:'',
+ prices:{food:900,shop:800,beauty:650,health:1200,pro:1000,craft:600,hotel:1500,sport:900},
+ redesign:15,maint:35,resv:250,resvM:10,
+ wa:'Hola, ¿qué tal? Soy {mi_nombre}. He visto {negocio} en {zona} y me he fijado en que {motivo}. Hago páginas web modernas para negocios como el vuestro{extra}, desde {precio} y {mantenimiento}/mes de mantenimiento. ¿Os enseño un ejemplo sin compromiso?',
+ key:'',model:'claude-sonnet-5-5'
+};
+const loadCfg=()=>{const s=ls.get('cfg',{});const c=Object.assign({},DEF,s);c.prices=Object.assign({},DEF.prices,s.prices||{});return c};
+let cfg=loadCfg();
+const SNAME={food:'Restauración',shop:'Comercios',beauty:'Peluquería y estética',health:'Salud y clínicas',pro:'Profesionales',craft:'Oficios',hotel:'Alojamiento',sport:'Gimnasios'};
+const RESV={food:'reservas online',beauty:'citas online',health:'cita previa online',hotel:'reservas online',sport:'reserva de clases online'};
+let done=new Set(ls.get('done',[]));
+let data=[],filter='opp',aiCache=ls.get('ai',{});
+
+/* ---------- Sectores: consultas OSM + precio base (€) y complejidad ---------- */
+const SECT={
+ food:{q:['amenity~"^(restaurant|cafe|bar|pub|fast_food|ice_cream|biergarten)$"'],base:900,extra:'carta digital y reservas'},
+ shop:{q:['shop'],base:800,extra:'catálogo o tienda online'},
+ beauty:{q:['shop~"^(hairdresser|beauty|cosmetics|massage|tattoo|nails)$"'],base:650,extra:'reserva de citas online'},
+ health:{q:['amenity~"^(dentist|clinic|doctors|veterinary|pharmacy)$"','healthcare'],base:1200,extra:'cita previa y fichas de servicios'},
+ pro:{q:['office~"^(lawyer|accountant|estate_agent|insurance|architect|notary|tax_advisor|consulting|company)$"'],base:1000,extra:'formulario de contacto y SEO local'},
+ craft:{q:['craft'],base:600,extra:'galería de trabajos y presupuesto online'},
+ hotel:{q:['tourism~"^(hotel|guest_house|hostel|apartment|motel)$"'],base:1500,extra:'motor de reservas multiidioma'},
+ sport:{q:['leisure~"^(fitness_centre|sports_centre|dance)$"','sport'],base:900,extra:'horarios, clases y cuotas'}
+};
+const catOf=t=>{
+ if(t.amenity&&/restaurant|cafe|bar|pub|fast_food|ice_cream|biergarten/.test(t.amenity))return'food';
+ if(t.shop&&/hairdresser|beauty|cosmetics|massage|tattoo|nails/.test(t.shop))return'beauty';
+ if(t.healthcare||(t.amenity&&/dentist|clinic|doctors|veterinary|pharmacy/.test(t.amenity)))return'health';
+ if(t.tourism)return'hotel';
+ if(t.leisure||t.sport)return'sport';
+ if(t.office)return'pro';
+ if(t.craft)return'craft';
+ return'shop';
+};
+const LABEL={restaurant:'Restaurante',cafe:'Cafetería',bar:'Bar',pub:'Pub',fast_food:'Comida rápida',ice_cream:'Heladería',hairdresser:'Peluquería',beauty:'Centro de estética',dentist:'Dentista',clinic:'Clínica',doctors:'Consulta médica',veterinary:'Veterinario',pharmacy:'Farmacia',lawyer:'Abogado',accountant:'Asesoría',estate_agent:'Inmobiliaria',insurance:'Seguros',architect:'Arquitecto',hotel:'Hotel',guest_house:'Casa de huéspedes',hostel:'Hostal',fitness_centre:'Gimnasio',bakery:'Panadería',butcher:'Carnicería',clothes:'Ropa',florist:'Floristería',supermarket:'Supermercado',convenience:'Alimentación',car_repair:'Taller mecánico',optician:'Óptica',shoes:'Zapatería',jewelry:'Joyería',furniture:'Muebles',hardware:'Ferretería',kiosk:'Kiosco',greengrocer:'Frutería',nails:'Uñas',tattoo:'Tatuajes',massage:'Masajes',carpenter:'Carpintero',electrician:'Electricista',plumber:'Fontanero',photographer:'Fotógrafo'};
+const sub=t=>{const v=t.amenity||t.shop||t.office||t.craft||t.tourism||t.leisure||t.healthcare||'';return LABEL[v]||(v?v.replace(/_/g,' ').replace(/^./,c=>c.toUpperCase()):'Negocio')};
+
+/* ---------- Detección de web anticuada (heurística instantánea) ---------- */
+const OLD=[[/blogspot\.|blogger\./,'Blog de Blogger, no es una web profesional'],[/wixsite\.com|wix\.com/,'Web gratuita de Wix con dominio ajeno'],[/webnode\.|jimdo|jimdosite|site123|sites\.google|weebly|es\.tl|galeon|mipagina|wordpress\.com|strikingly|ueniweb|negocio\.site|business\.site/,'Constructor gratuito sin dominio propio'],[/facebook\.com|instagram\.com|fb\.com|linktr\.ee/,'Solo redes sociales, sin web propia'],[/\.(htm|html|php|asp)(\?|$)|index\.|\/~|default\.aspx/,'URL con estructura antigua'],[/^http:\/\//,'Sin HTTPS: el navegador la marca como no segura']];
+const webOf=t=>t.website||t['contact:website']||t.url||t['website:es']||'';
+const social=t=>t['contact:facebook']||t.facebook||t['contact:instagram']||t.instagram||'';
+function status(t){
+ const w=webOf(t).trim();
+ if(!w){return{s:'none',why:social(t)?'Solo tiene redes sociales':'No consta ninguna web'}}
+ const lw=w.toLowerCase();
+ for(const[r,why] of OLD) if(r.test(lw))return{s:'old',why,w};
+ return{s:'ok',why:'Tiene web propia (analízala con IA para valorar si es mejorable)',w};
+}
+
+/* ---------- Estimación de precio local ---------- */
+function estimate(b){
+ const S=SECT[b.cat];
+ let base=+cfg.prices[b.cat]||S.base;
+ if(b.st.s!=='none')base*=1-(+cfg.redesign||0)/100;
+ if(b.t.brand||b.t['brand:wikidata'])base*=1.5;
+ if(b.t.stars&&+b.t.stars>=3)base*=1.25;
+ const lo=Math.round(base/10)*10,hi=Math.round(base*1.25/50)*50;
+ const mt=+cfg.maint||0;
+ const addon=RESV[b.cat]?{name:RESV[b.cat],v:+cfg.resv||0,m:+cfg.resvM||0}:null;
+ return{lo,hi,mt,extra:S.extra,addon};
+}
+
+/* ---------- Búsqueda ---------- */
+const OVER=['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter','https://maps.mail.ru/osm/tools/overpass/api/interpreter'];
+async function geocode(z){
+ const k='geo_'+z.toLowerCase();try{const c=sessionStorage.getItem(k);if(c)return JSON.parse(c)}catch{}
+ const r=await fetch('https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=es&accept-language=es&q='+encodeURIComponent(z));
+ if(!r.ok)throw new Error('No se pudo localizar la zona');
+ const j=await r.json();if(!j.length)throw new Error('No encuentro "'+z+'" en España. Prueba con "barrio, ciudad".');
+ const g={lat:+j[0].lat,lon:+j[0].lon,name:j[0].display_name};
+ try{sessionStorage.setItem(k,JSON.stringify(g))}catch{}
+ return g;
+}
+async function overpass(q){
+ let last;
+ const tries=OVER.map(u=>{const ac=new AbortController();const p=fetch(u,{method:'POST',body:'data='+encodeURIComponent(q),signal:ac.signal}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()});return{p,ac}});
+ // Carrera: el primer servidor que responde gana, el resto se cancela
+ try{const j=await Promise.any(tries.map(t=>t.p));tries.forEach(t=>t.ac.abort());return j}
+ catch(e){last=e}
+ throw new Error('Los servidores de mapas están saturados. Reintenta en unos segundos o reduce el radio.');
+}
+async function search(ev){
+ ev.preventDefault();
+ const z=$('#zona').value.trim(),sec=$('#sector').value,rad=+$('#radio').value;
+ if(!z)return;
+ $('#goBtn').disabled=true;$('#load').classList.add('on');$('#msg').className='msg';$('#msg').textContent='Localizando zona…';
+ try{
+  const g=await geocode(z);
+  $('#msg').textContent='Buscando negocios cerca de '+g.name.split(',').slice(0,3).join(',')+'…';
+  const keys=sec==='all'?Object.values(SECT).flatMap(s=>s.q):SECT[sec].q;
+  // Radio grande: el servidor solo devuelve oportunidades (sin web o con web sospechosa) para ir rápido
+  const big=rad>10000,ar=`(around:${rad},${g.lat},${g.lon})`;
+  const OLDRX='^http://|blogspot|blogger|wix|webnode|jimdo|site123|sites\\.google|weebly|es\\.tl|wordpress\\.com|facebook|instagram|linktr|business\\.site|negocio\\.site';
+  const parts=[...new Set(keys)].map(k=>big
+   ?`nwr${ar}[name][${k}][!website][!"contact:website"][!url];nwr${ar}[name][${k}][website~"${OLDRX}",i];nwr${ar}[name][${k}]["contact:website"~"${OLDRX}",i];`
+   :`nwr${ar}[name][${k}];`).join('');
+  const q=`[out:json][timeout:${big?90:30}][maxsize:200000000];(${parts});out center tags ${big?3000:1000};`;
+  if(big)$('#msg').textContent='Zona amplia ('+rad/1000+' km): buscando solo oportunidades, puede tardar unos segundos…';
+  const ck='op_'+q;let j;
+  try{const c=sessionStorage.getItem(ck);if(c)j=JSON.parse(c)}catch{}
+  if(!j){j=await overpass(q);try{sessionStorage.setItem(ck,JSON.stringify(j))}catch{}}
+  const seen=new Set();
+  data=j.elements.filter(e=>e.tags&&e.tags.name&&!(e.tags.shop==='vacant')).map(e=>{
+   const t=e.tags,lat=e.lat??e.center?.lat,lon=e.lon??e.center?.lon;
+   const b={id:e.type[0]+e.id,t,name:t.name,lat,lon,cat:catOf(t)};
+   b.st=status(t);b.sub=sub(t);
+   b.addr=[[t['addr:street'],t['addr:housenumber']].filter(Boolean).join(' '),t['addr:postcode'],t['addr:city']].filter(Boolean).join(', ');
+   b.phone=t.phone||t['contact:phone']||t.mobile||t['contact:mobile']||'';
+   b.email=t.email||t['contact:email']||'';
+   b.price=estimate(b);
+   b.dist=Math.round(Math.hypot((lat-g.lat)*111320,(lon-g.lon)*111320*Math.cos(g.lat*Math.PI/180)));
+   return b;
+  }).filter(b=>{const k=b.name.toLowerCase()+'|'+(b.addr||b.lat?.toFixed(3));if(seen.has(k))return false;seen.add(k);return true})
+   .sort((a,b)=>({none:0,old:1,ok:2}[a.st.s]-{none:0,old:1,ok:2}[b.st.s])||(!!b.phone-!!a.phone)||a.dist-b.dist);
+  $('#intro').hidden=true;$('#res').hidden=false;
+  shown=PAGE;center={lat:g.lat,lon:g.lon,rad,name:g.name};
+  $('#msg').textContent=data.length?data.length+' negocios encontrados en '+rad/1000+' km alrededor de '+g.name.split(',').slice(0,2).join(',')+(big?' (solo oportunidades)':''):'';
+  if(!data.length){$('#msg').textContent='No hay negocios registrados en ese radio. Amplía el radio o cambia de sector.'}
+  render();
+ }catch(e){$('#msg').className='msg err';$('#msg').textContent=e.message||'Error de conexión'}
+ finally{$('#goBtn').disabled=false;$('#load').classList.remove('on')}
+}
+
+/* ---------- Pintado ---------- */
+const gUrl=b=>'https://www.google.com/search?q='+encodeURIComponent(b.name+' '+(b.addr||b.t['addr:city']||''));
+const mUrl=b=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(b.addr?b.name+' '+b.addr:b.name+' '+b.lat+','+b.lon);
+const fmt=n=>(+n||0).toLocaleString('es-ES')+' €';
+/* ---------- WhatsApp ---------- */
+const digits=p=>{let d=String(p||'').split(/[;,/]/)[0].replace(/\D/g,'');if(d.startsWith('0034'))d=d.slice(4);else if(d.startsWith('34')&&d.length===11)d=d.slice(2);return d};
+const isMobile=p=>/^[67]\d{8}$/.test(digits(p));
+function motivo(b){
+ if(b.st.s==='none')return social(b.t)?'solo aparecéis en redes sociales y no tenéis web propia':'todavía no tenéis página web';
+ if(b.st.s==='old')return/HTTPS/.test(b.st.why)?'vuestra web sale como "no segura" en el navegador':'vuestra web actual se ha quedado algo anticuada';
+ return 'vuestra web se podría modernizar';
+}
+function waText(b){
+ const ai=aiCache[b.id];if(ai&&ai.mensaje_whatsapp)return ai.mensaje_whatsapp;
+ const p=b.price,v={negocio:b.name,tipo:b.sub.toLowerCase(),zona:b.t['addr:city']||($('#zona').value||'').split(',')[0],motivo:motivo(b),extra:p.addon?' con '+p.addon.name:'',precio:fmt(ai?.precio_min||p.lo),mantenimiento:fmt(ai?.mantenimiento_mes||p.mt),mi_nombre:cfg.brand||'[tu nombre]',mi_telefono:cfg.myPhone,mi_web:cfg.myWeb};
+ return cfg.wa.replace(/\{(\w+)\}/g,(m,k)=>k in v?v[k]:m);
+}
+const waUrl=b=>{const d=digits(b.phone);return'https://wa.me/'+(d.length===9?'34'+d:'')+'?text='+encodeURIComponent(waText(b))};
+function visible(){
+ const q=$('#q').value.trim().toLowerCase(),ph=$('#onlyPhone').checked;
+ return data.filter(b=>(filter==='all'||(filter==='opp'?b.st.s!=='ok':b.st.s===filter))&&(!ph||b.phone)&&(!q||(b.name+' '+b.addr).toLowerCase().includes(q)));
+}
+function aiHtml(a){
+ if(!a)return'';
+ if(a.loading)return'<div class="ai">Analizando con IA…</div>';
+ if(a.error)return'<div class="ai" style="color:#ff7a9c">'+esc(a.error)+'</div>';
+ return`<div class="ai"><div class="row" style="display:flex;justify-content:space-between;gap:8px"><b>IA: ${fmt(+a.precio_min||0)} – ${fmt(+a.precio_max||0)}</b><span class="mt">${fmt(+a.mantenimiento_mes||0)}/mes</span></div>
+ ${a.puntuacion_web!=null?`<div>Modernidad de su web: <b>${esc(a.puntuacion_web)}/10</b></div>`:''}
+ ${Array.isArray(a.problemas)&&a.problemas.length?'<ul>'+a.problemas.slice(0,4).map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>':''}
+ ${a.incluye_extra?'<div>Precio con el extra de reservas/citas incluido.</div>':''}
+ ${a.argumento_venta?`<div><b>Cómo vendérselo:</b> ${esc(a.argumento_venta)}</div>`:''}
+ ${a.mensaje_whatsapp?'<div style="color:#25d366">✓ Mensaje de WhatsApp personalizado listo</div>':''}</div>`;
+}
+function card(b){
+ const tg={none:['t-none','Sin web'],old:['t-old','Web mejorable'],ok:['t-ok','Con web']}[b.st.s];
+ const p=b.price,t=b.t,soc=social(t);
+ return`<article class="card${done.has(b.id)?' done':''}" data-id="${esc(b.id)}">
+ <div class="ch"><div><div class="nm">${esc(b.name)}</div><div class="cat">${esc(b.sub)} · a ${b.dist<1000?b.dist+' m':(b.dist/1000).toFixed(1)+' km'}</div></div><span class="tag ${tg[0]}">${tg[1]}</span></div>
+ <div class="why">${esc(b.st.why)}</div>
+ <div class="info">
+  ${b.phone?`<div><span>Teléfono</span><a href="tel:${esc(b.phone.replace(/\s/g,''))}">${esc(b.phone)}</a></div>`:''}
+  ${b.email?`<div><span>Email</span><a href="mailto:${esc(b.email)}">${esc(b.email)}</a></div>`:''}
+  ${b.addr?`<div><span>Dirección</span><b style="font-weight:500">${esc(b.addr)}</b></div>`:''}
+  ${b.st.w?`<div><span>Web</span><a href="${esc(/^https?:/.test(b.st.w)?b.st.w:'http://'+b.st.w)}" target="_blank" rel="noopener">${esc(b.st.w)}</a></div>`:''}
+  ${soc?`<div><span>Redes</span><span style="width:auto;color:var(--tx)">${esc(soc)}</span></div>`:''}
+  ${t.opening_hours?`<div><span>Horario</span><span style="width:auto;color:var(--tx)">${esc(t.opening_hours)}</span></div>`:''}
+  ${!b.phone&&!b.email?'<div><span>Contacto</span><span style="width:auto;color:var(--wa)">Sin datos en el mapa: búscalo en Google</span></div>':''}
+ </div>
+ <div class="price"><div class="row"><span class="big">${fmt(p.lo)} – ${fmt(p.hi)}</span><span class="mt">+ ${fmt(p.mt)}/mes</span></div>
+  <div class="src">Tus precios · ${b.st.s==='none'?'web nueva':'rediseño'}</div>
+  ${p.addon?`<div class="addon"><span>Recomendado: ${esc(p.addon.name)}</span><b>+ ${fmt(p.addon.v)}${p.addon.m?' · +'+fmt(p.addon.m)+'/mes':''}</b></div>`:''}${aiHtml(aiCache[b.id])}</div>
+ <div class="acts">
+  <a class="btn sm wa" href="${esc(waUrl(b))}" target="_blank" rel="noopener" title="${b.phone?(isMobile(b.phone)?'Abrir chat con el mensaje escrito':'Es un fijo: puede que no tenga WhatsApp'):'Sin teléfono: elige el contacto en WhatsApp'}">WhatsApp${b.phone&&!isMobile(b.phone)?' (fijo)':''}</a>
+  <a class="btn ghost sm" href="${gUrl(b)}" target="_blank" rel="noopener">Ver en Google</a>
+  <a class="btn ghost sm" href="${mUrl(b)}" target="_blank" rel="noopener">Maps</a>
+  <button class="btn ghost sm" data-a="map">Ver en mapa</button>
+  <button class="btn ghost sm" data-a="ai">✦ Precio con IA</button>
+  <button class="btn ghost sm" data-a="copy">Copiar ficha</button>
+  <button class="btn ghost sm" data-a="done">${done.has(b.id)?'Desmarcar':'Contactado'}</button>
+ </div></article>`;
+}
+function render(){
+ const v=visible(),c={none:0,old:0,ok:0};data.forEach(b=>c[b.st.s]++);
+ const opp=data.filter(b=>b.st.s!=='ok'),pot=opp.reduce((s,b)=>s+(b.price.lo+b.price.hi)/2,0),mrr=opp.reduce((s,b)=>s+b.price.mt,0);
+ $('#stats').innerHTML=`<div class="stat hot"><div class="v">${c.none}</div><div class="k">sin página web</div></div><div class="stat"><div class="v">${c.old}</div><div class="k">con web mejorable</div></div><div class="stat"><div class="v">${Math.round(pot/1000)}k €</div><div class="k">potencial en ventas</div></div><div class="stat"><div class="v">${fmt(mrr)}</div><div class="k">mantenimiento/mes posible</div></div>`;
+ document.querySelectorAll('.chip[data-f]').forEach(ch=>{const f=ch.dataset.f,n=f==='all'?data.length:f==='opp'?c.none+c.old:c[f];ch.innerHTML=ch.textContent.replace(/\s*\d+$/,'')+`<span class="n">${n}</span>`;ch.setAttribute('aria-pressed',f===filter)});
+ drawMap(v);
+ $('#grid').innerHTML=v.length?v.slice(0,shown).map(card).join('')+(v.length>shown?`<div class="empty" style="grid-column:1/-1;padding:20px 0"><button class="btn" id="more" type="button">Ver más (${v.length-shown} restantes)</button></div>`:''):'<div class="empty"><b>Nada con estos filtros</b>Prueba "Todos" o quita el filtro de teléfono.</div>';
+}
+// Se pintan los resultados por tandas para que la página siga fluida con miles de negocios
+const PAGE=90;let shown=PAGE;
+let deb;$('#q').addEventListener('input',()=>{clearTimeout(deb);deb=setTimeout(()=>{shown=PAGE;render()},120)});
+$('#onlyPhone').addEventListener('change',()=>{shown=PAGE;render()});
+document.querySelectorAll('.chip[data-f]').forEach(ch=>ch.addEventListener('click',()=>{filter=ch.dataset.f;shown=PAGE;render()}));
+$('#grid').addEventListener('click',e=>{if(e.target.id==='more'){shown+=PAGE;render()}});
+
+/* ---------- Mapa (Leaflet, se carga solo tras la primera búsqueda) ---------- */
+let center=null,map=null,layer=null,zone=null,marks={},lastSig='',leafletP=null;
+const COL={none:'#ff2e88',old:'#ffc247',ok:'#2ee6a6'};
+function loadLeaflet(){
+ if(window.L)return Promise.resolve();
+ if(leafletP)return leafletP;
+ const base='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/';
+ const css=document.createElement('link');css.rel='stylesheet';css.href=base+'leaflet.min.css';document.head.appendChild(css);
+ leafletP=new Promise((ok,ko)=>{const s=document.createElement('script');s.src=base+'leaflet.min.js';s.onload=ok;s.onerror=()=>{leafletP=null;ko()};document.head.appendChild(s)});
+ return leafletP;
+}
+async function drawMap(v){
+ if(!center)return;
+ try{await loadLeaflet()}catch{$('#map').innerHTML='<div class="empty">No se pudo cargar el mapa.</div>';return}
+ if(!map){
+  map=L.map('map',{preferCanvas:true,zoomControl:true,scrollWheelZoom:false});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:19,subdomains:'abcd',attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · © <a href="https://carto.com/">CARTO</a>'}).addTo(map);
+  layer=L.layerGroup().addTo(map);
+  map.on('click',()=>map.scrollWheelZoom.enable());
+ }
+ const sig=center.lat+','+center.lon+','+center.rad;
+ if(sig!==lastSig){
+  lastSig=sig;
+  if(zone)zone.remove();
+  zone=L.circle([center.lat,center.lon],{radius:center.rad,color:'#ff2e88',weight:2,fillColor:'#ff2e88',fillOpacity:.05,dashArray:'6 6',interactive:false}).addTo(map);
+  map.fitBounds(zone.getBounds(),{padding:[10,10]});
+ }
+ layer.clearLayers();marks={};
+ const r=center.rad>20000?4:center.rad>5000?5:7;
+ for(const b of v){
+  if(b.lat==null)continue;
+  const m=L.circleMarker([b.lat,b.lon],{radius:r,color:'#0b0b0d',weight:1,fillColor:COL[b.st.s],fillOpacity:done.has(b.id)?.35:.95});
+  m.bindPopup(()=>`<b>${esc(b.name)}</b><br><span style="color:#a59ea4">${esc(b.sub)}</span><br>${b.phone?esc(b.phone)+'<br>':''}<span style="color:${COL[b.st.s]}">${esc(b.st.why)}</span><br><span style="color:#ff8fc0;font-weight:700">${fmt(b.price.lo)} – ${fmt(b.price.hi)}</span><br><a href="#" data-goto="${esc(b.id)}">Ver ficha ↓</a> · <a href="${gUrl(b)}" target="_blank" rel="noopener">Google</a>`);
+  m.addTo(layer);marks[b.id]=m;
+ }
+ setTimeout(()=>map.invalidateSize(),0);
+}
+function focusMap(b){
+ const m=marks[b.id];if(!m||!map)return;
+ $('.mapbox').scrollIntoView({behavior:'smooth',block:'center'});
+ map.setView([b.lat,b.lon],Math.max(map.getZoom(),17));m.openPopup();
+}
+$('#map').addEventListener('click',e=>{
+ const a=e.target.closest('a[data-goto]');if(!a)return;e.preventDefault();
+ const id=a.dataset.goto,v=visible(),i=v.findIndex(b=>b.id===id);if(i<0)return;
+ if(i>=shown){shown=Math.ceil((i+1)/PAGE)*PAGE;render()}
+ requestAnimationFrame(()=>{const c=document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);if(!c)return;c.scrollIntoView({behavior:'smooth',block:'center'});c.classList.add('flash');setTimeout(()=>c.classList.remove('flash'),1600)});
+});
+
+/* ---------- IA (Claude) ---------- */
+async function askAI(b){
+ if(!cfg.key){$('#cfg').showModal();toast('Añade tu clave API para usar la IA');return}
+ aiCache[b.id]={loading:1};render();
+ const t=b.t,ctx={nombre:b.name,tipo:b.sub,direccion:b.addr,localidad:t['addr:city']||$('#zona').value,web:b.st.w||'ninguna',redes:social(t)||'ninguna',horario:t.opening_hours||'',estado:b.st.why,mis_precios:{web_nueva_sector:cfg.prices[b.cat],descuento_rediseno_pct:cfg.redesign,mantenimiento_mes:cfg.maint,extra:b.price.addon}};
+ const prompt=`Eres un consultor de diseño web en España que vende webs hechas con IA a pequeños negocios. Analiza este negocio:\n${JSON.stringify(ctx)}\n\n${b.st.w?'Abre su web con la herramienta web_fetch y valora si su diseño está anticuado (estética, móvil, HTTPS, velocidad aparente, contenido).':'No tiene web.'}\nEl vendedor cobra pago único + mantenimiento mensual y estos son SUS precios (campo mis_precios): úsalos como referencia y ajústalos solo si el tamaño, la ciudad o la complejidad del negocio lo justifican (máximo ±40%). ${b.price.addon?'Valora si le conviene el extra de '+b.price.addon.name+' e inclúyelo en el precio si lo recomiendas.':''}\nRedacta también un mensaje de WhatsApp para el dueño: cercano, natural, en español de España, sin sonar a spam, máximo 450 caracteres, mencionando algo concreto del negocio, ${b.price.addon?'el '+b.price.addon.name+' si lo recomiendas, ':''}el precio desde el que parte y firmado por "${cfg.brand||'[tu nombre]'}"${cfg.myWeb?' con su web '+cfg.myWeb:''}.\nResponde SOLO con JSON: {"puntuacion_web":número 0-10 o null,"problemas":[máx 4 frases cortas],"precio_min":n,"precio_max":n,"mantenimiento_mes":n,"incluye_extra":true/false,"argumento_venta":"1-2 frases","mensaje_whatsapp":"texto"}`;
+ const call=async useWeb=>{
+  const h={'content-type':'application/json','x-api-key':cfg.key,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'};
+  const body={model:cfg.model||'claude-sonnet-5-5',max_tokens:16000,messages:[{role:'user',content:prompt}]};
+  if(useWeb)body.tools=[{type:'web_fetch_20260209',name:'web_fetch',max_uses:2}];
+  const r=await fetch('https://api.anthropic.com/v1/messages',{method:'POST',headers:h,body:JSON.stringify(body)});
+  const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error?.message||'Error '+r.status);
+  if(j.stop_reason==='refusal')throw new Error('La IA no ha querido analizar este negocio.');
+  return j;
+ };
+ try{
+  let j;
+  try{j=await call(!!b.st.w)}catch(e){if(b.st.w&&!/api.key|auth|401|credit/i.test(e.message))j=await call(false);else throw e}
+  const txt=j.content.filter(c=>c.type==='text').map(c=>c.text).join('');
+  const m=txt.match(/\{[\s\S]*\}/);if(!m)throw new Error('La IA no devolvió un precio. Reintenta.');
+  aiCache[b.id]=JSON.parse(m[0]);ls.set('ai',aiCache);
+ }catch(e){aiCache[b.id]={error:'IA: '+e.message}}
+ render();
+}
+
+/* ---------- Acciones ---------- */
+$('#grid').addEventListener('click',async e=>{
+ const btn=e.target.closest('button[data-a]');if(!btn)return;
+ const id=btn.closest('.card').dataset.id,b=data.find(x=>x.id===id);if(!b)return;
+ const a=btn.dataset.a;
+ if(a==='ai')askAI(b);
+ if(a==='map')focusMap(b);
+ if(a==='done'){done.has(id)?done.delete(id):done.add(id);ls.set('done',[...done]);render()}
+ if(a==='copy'){const ai=aiCache[id];const txt=[b.name,b.sub,b.addr,b.phone&&'Tel: '+b.phone,b.email&&'Email: '+b.email,b.st.w&&'Web: '+b.st.w,'Estado: '+b.st.why,'Precio: '+fmt(ai?.precio_min||b.price.lo)+' – '+fmt(ai?.precio_max||b.price.hi)+' + '+fmt(ai?.mantenimiento_mes||b.price.mt)+'/mes','Google: '+gUrl(b)].filter(Boolean).join('\n');
+  try{await navigator.clipboard.writeText(txt);toast('Ficha copiada')}catch{toast('No se pudo copiar')}}
+});
+$('#csvBtn').addEventListener('click',()=>{
+ const rows=[['Nombre','Tipo','Estado','Teléfono','Email','Dirección','Web','Precio min','Precio max','Mant/mes','Extra recomendado','Google','WhatsApp','Mensaje','Contactado']].concat(visible().map(b=>{const ai=aiCache[b.id]||{};return[b.name,b.sub,b.st.why,b.phone,b.email,b.addr,b.st.w||'',ai.precio_min||b.price.lo,ai.precio_max||b.price.hi,ai.mantenimiento_mes||b.price.mt,b.price.addon?b.price.addon.name+' +'+b.price.addon.v+' €':'',gUrl(b),waUrl(b),waText(b),done.has(b.id)?'Sí':'No']}));
+ const csv='﻿'+rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(';')).join('\n');
+ const u=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));const l=document.createElement('a');l.href=u;l.download='negocios-'+($('#zona').value||'zona').replace(/\W+/g,'-')+'.csv';l.click();setTimeout(()=>URL.revokeObjectURL(u),1000);
+});
+$('#pGrid').innerHTML=Object.keys(SNAME).map(k=>`<label class="f">${SNAME[k]}<input id="p_${k}" type="number" min="0" step="50"></label>`).join('');
+const FIELDS={kBrand:'brand',kMyPhone:'myPhone',kMyWeb:'myWeb',kRedesign:'redesign',kMaint:'maint',kResv:'resv',kResvM:'resvM',kWa:'wa',kKey:'key',kModel:'model'};
+const fillCfg=c=>{for(const[id,k] of Object.entries(FIELDS))$('#'+id).value=c[k]??'';for(const k in SNAME)$('#p_'+k).value=c.prices[k]};
+$('#cfgBtn').addEventListener('click',()=>{fillCfg(cfg);$('#cfg').showModal()});
+$('#cfgX').addEventListener('click',()=>$('#cfg').close());
+$('#cfgReset').addEventListener('click',()=>{fillCfg(Object.assign({},DEF,{key:cfg.key}));toast('Valores por defecto cargados: pulsa Guardar')});
+$('#cfgOk').addEventListener('click',()=>{
+ const n={prices:{}};
+ for(const[id,k] of Object.entries(FIELDS)){const v=$('#'+id).value.trim();n[k]=$('#'+id).type==='number'?(v===''?DEF[k]:+v):v}
+ for(const k in SNAME){const v=$('#p_'+k).value;n.prices[k]=v===''?DEF.prices[k]:+v}
+ if(!n.wa)n.wa=DEF.wa;if(!n.model)n.model=DEF.model;
+ ls.set('cfg',n);cfg=loadCfg();data.forEach(b=>b.price=estimate(b));$('#cfg').close();if(data.length)render();toast('Configuración guardada');
+});
+
+$('#sf').addEventListener('submit',search);
+const last=ls.get('zona','');if(last)$('#zona').value=last;
+$('#zona').addEventListener('change',()=>ls.set('zona',$('#zona').value));
+}
+</script>
+</body>
+</html>
