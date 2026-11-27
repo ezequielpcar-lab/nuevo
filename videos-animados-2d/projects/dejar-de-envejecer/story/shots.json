@@ -1,0 +1,3166 @@
+{
+ "title": "¿Qué pasaría si dejaras de envejecer a los 20?",
+ "duration": 376.2,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.45,
+   "line": "El portero del bar mira tu identificación.",
+   "scene": "Toma abierta: fila del bar de noche, letrero de neón, el portero (traje negro) sostiene tu identificación frente a Sam (sudadera roja). Acercamiento lento.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "city",
+     "gain": -22
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s002",
+   "start": 2.45,
+   "end": 4.0,
+   "line": "Luego te mira a ti.",
+   "scene": "Primer plano gigante del portero: mira de reojo a cámara, ceja levantada.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 4.0,
+   "end": 6.5,
+   "line": "Luego otra vez la identificación.",
+   "scene": "Detalle: la mano del portero con el carnet de identidad bajo la linterna (foto de Sam, NAC. 1981).",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s004",
+   "start": 6.5,
+   "end": 9.8,
+   "line": "Aquí dice que naciste en 1981.",
+   "scene": "Toma media de dos: el portero habla, aparece \"1981\" brillando entre ellos.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s005",
+   "start": 9.8,
+   "end": 10.6,
+   "line": "Sí.",
+   "scene": "Primer plano gigante de Sam: sonrisa tranquila (\"Sí\").",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 10.6,
+   "end": 12.5,
+   "line": "¿Tienes cuarenta y cinco años?",
+   "scene": "Sobre el hombro: hombro desenfocado de Sam adelante; el portero pregunta. Etiqueta \"45 AÑOS\".",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s007",
+   "start": 12.5,
+   "end": 15.9,
+   "line": "Sí. Amigo... ¿qué crema usas?",
+   "scene": "Toma media: Sam asiente; el portero se inclina, entrecierra los ojos: \"¿qué crema usas?\". Sam se encoge de hombros.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s008",
+   "start": 15.9,
+   "end": 17.25,
+   "line": "Te llamas Sam.",
+   "scene": "IMAGEN CONGELADA: flash, todo quieto, etiqueta \"SAM\" con línea guía.",
+   "set": "bar",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 17.25,
+   "end": 20.75,
+   "line": "Y hace veinticinco años... dejaste de envejecer.",
+   "scene": "Plano: fila de siluetas de Sam creciendo (5, 10, 15, 20) y luego idénticas (25 años después). Contador de años.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 20.75,
+   "end": 23.2,
+   "line": "Tu mejor amigo Leo ya tiene canas.",
+   "scene": "Toma media: Leo (camiseta azul, canas) junto a Sam en la vereda del bar. Etiqueta \"CANAS\" señala su pelo.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s011",
+   "start": 23.2,
+   "end": 26.2,
+   "line": "Tú tienes la misma cara de tu foto de graduación.",
+   "scene": "Detalle: foto de graduación 2001 (Sam con birrete) junto a Sam hoy, cara idéntica.",
+   "set": "photo",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s012",
+   "start": 26.2,
+   "end": 27.5,
+   "line": "Tu rodilla no cruje.",
+   "scene": "Sam se agacha y salta sin esfuerzo; detrás Leo se agarra la rodilla.",
+   "set": "bar",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s013",
+   "start": 27.5,
+   "end": 31.75,
+   "line": "Y en tu billetera... sigue el carnet de estudiante. Por si acaso.",
+   "scene": "Detalle: la billetera se abre y aparece el CARNET DE ESTUDIANTE. Guiño.",
+   "set": "wallet",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 1.4,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s014",
+   "start": 31.75,
+   "end": 35.95,
+   "line": "Una persona normal empieza a perder masa muscular después de los treinta.",
+   "scene": "Plano: curva de masa muscular por edad, empieza a bajar después de los 30.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 35.95,
+   "end": 38.95,
+   "line": "Entre tres y ocho por ciento cada década.",
+   "scene": "Tarjeta de datos: PÉRDIDA POR DÉCADA 3 % → 8 %.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 38.95,
+   "end": 42.65,
+   "line": "¿Tú? Te detuviste a los veinte. Para siempre.",
+   "scene": "Mismo gráfico: la línea dorada de Sam queda plana en 20 para siempre (∞).",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 42.65,
+   "end": 44.3,
+   "line": "Pero hay una regla.",
+   "scene": "Frase grande \"PERO HAY UNA REGLA\" sobre fondo oscuro con reloj detenido.",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 44.3,
+   "end": 47.9,
+   "line": "Tu cuerpo dejó de envejecer. No dejó de ser un cuerpo.",
+   "scene": "Plano: figura de Sam con reloj detenido; luego aparecen corazón, huesos, sangre: \"SIGUE SIENDO UN CUERPO\".",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 47.9,
+   "end": 49.15,
+   "line": "Te puedes romper.",
+   "scene": "Sam con el brazo enyesado y cabestrillo, cara de dolor.",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s020",
+   "start": 49.15,
+   "end": 50.6,
+   "line": "Te puedes enfermar.",
+   "scene": "Sam en cama con termómetro, sudando.",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s021",
+   "start": 50.6,
+   "end": 51.3,
+   "line": "Puedes morir.",
+   "scene": "Monitor cardíaco: la línea se vuelve plana en rojo.",
+   "set": "blueprint",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 51.3,
+   "end": 54.15,
+   "line": "Solo... no te haces viejo.",
+   "scene": "Detalle: reloj de arena con la arena congelada en el aire; Sam desenfocado sonríe detrás.",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s023",
+   "start": 54.15,
+   "end": 57.25,
+   "line": "¿Y qué pasaría si dejaras de envejecer a los veinte?",
+   "scene": "TARJETA DE TÍTULO sobre la ciudad al atardecer: ¿QUÉ PASARÍA SI DEJARAS DE ENVEJECER A LOS 20?",
+   "set": "title",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "stinger",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   },
+   "captions": false
+  },
+  {
+   "id": "s024",
+   "start": 57.25,
+   "end": 58.7,
+   "line": "Primero, lo bueno.",
+   "scene": "Toma abierta de la cancha al atardecer, frase \"PRIMERO, LO BUENO\".",
+   "set": "court",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s025",
+   "start": 58.7,
+   "end": 61.3,
+   "line": "A tus cuarenta corres como a tus veinte.",
+   "scene": "Órbita 3D: cancha de básquet, Sam corre con estela, Leo atrás.",
+   "set": "court3d",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s026",
+   "start": 61.3,
+   "end": 63.05,
+   "line": "Leo jadea en la cancha.",
+   "scene": "Leo inclinado con manos en las rodillas, jadeando y sudando; Sam al fondo rebota la pelota.",
+   "set": "court",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "kick",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s027",
+   "start": 63.05,
+   "end": 64.55,
+   "line": "Tú ni sudas.",
+   "scene": "Primer plano gigante de Sam, sonrisa pícara, ni una gota de sudor.",
+   "set": "court",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s028",
+   "start": 64.55,
+   "end": 66.2,
+   "line": "Bro. Te odio.",
+   "scene": "Primer plano gigante de Leo sudando: \"Bro. Te odio.\"",
+   "set": "court",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s029",
+   "start": 66.2,
+   "end": 68.5,
+   "line": "Con cariño. Pero te odio.",
+   "scene": "Toma media: Leo abraza a Sam por el hombro: \"Con cariño. Pero te odio.\"",
+   "set": "court",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s030",
+   "start": 68.5,
+   "end": 70.25,
+   "line": "Después, lo raro.",
+   "scene": "Toma abierta de la oficina con ventanal nocturno, frase \"DESPUÉS, LO RARO\".",
+   "set": "office",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s031",
+   "start": 70.25,
+   "end": 72.4,
+   "line": "Tu jefe es más joven que tú.",
+   "scene": "Jefe joven (pelo parado, traje) da órdenes a Sam. Etiquetas: JEFE 28 / SAM 45.",
+   "set": "office",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -12,
+     "pitch": 1.2
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s032",
+   "start": 72.4,
+   "end": 75.55,
+   "line": "¿Y los clientes? Creen que eres el practicante.",
+   "scene": "Sala de reuniones: dos clientes le dan sus tazas a Sam; gafete \"PRACTICANTE\".",
+   "set": "office",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s033",
+   "start": 75.55,
+   "end": 76.75,
+   "line": "Vas al médico.",
+   "scene": "Toma abierta: Sam entra al consultorio, luz fría.",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s034",
+   "start": 76.75,
+   "end": 78.8,
+   "line": "La doctora mira tus análisis.",
+   "scene": "Toma media: la doctora lee los análisis; Sam sentado en la camilla.",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s035",
+   "start": 78.8,
+   "end": 83.65,
+   "line": "Densidad ósea de veinte años. Presión perfecta. Arterias limpias.",
+   "scene": "Plano tipo radiografía: hueso, presión y arteria con marcas verdes sincronizadas.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 1.8,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 3.6,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.4
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 83.65,
+   "end": 85.8,
+   "line": "¿Seguro que esta fecha de nacimiento está bien?",
+   "scene": "Primer plano gigante de la doctora, confundida: \"¿Seguro que esta fecha...?\"",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s037",
+   "start": 85.8,
+   "end": 88.05,
+   "line": "Bastante seguro, sí.",
+   "scene": "Toma media: Sam se encoge de hombros sonriendo.",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s038",
+   "start": 88.05,
+   "end": 90.15,
+   "line": "Tu cuerpo sigue renovándose.",
+   "scene": "Plano: silueta de Sam con flechas circulares de renovación.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 90.15,
+   "end": 93.75,
+   "line": "Tus glóbulos rojos se reemplazan cada ciento veinte días.",
+   "scene": "Glóbulos rojos fluyendo por un vaso; contador \"120 DÍAS\".",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 93.75,
+   "end": 96.8,
+   "line": "Tu corazón late unas cien mil veces al día.",
+   "scene": "Corazón latiendo, contador sube hasta 100.000 LATIDOS/DÍA.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "heartbeat",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 96.8,
+   "end": 99.9,
+   "line": "Pero algo dentro de ti... dejó de contar.",
+   "scene": "TIEMPO DETENIDO: un reloj dentro del pecho de Sam se para; partículas suspendidas, tono frío.",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -6
+    },
+    {
+     "at": 1.6,
+     "name": "clock",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 99.9,
+   "end": 103.05,
+   "line": "A favor: nunca necesitas lentes para leer.",
+   "scene": "Toma media en un café: Sam lee el menú sin lentes; Leo lo aleja con lentes. Etiqueta \"A FAVOR\".",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s043",
+   "start": 103.05,
+   "end": 105.6,
+   "line": "En contra: el sol te quema igual.",
+   "scene": "Playa al mediodía: Sam bajo el sol, brillo rojo de quemadura. Etiqueta \"EN CONTRA\".",
+   "set": "beach",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "buzz",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s044",
+   "start": 105.6,
+   "end": 108.05,
+   "line": "No eres inmortal. Solo joven.",
+   "scene": "Sam camina por la orilla al atardecer: \"NO ERES INMORTAL. SOLO JOVEN.\"",
+   "set": "beach",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s045",
+   "start": 108.05,
+   "end": 111.95,
+   "line": "Pero donde se pone realmente complicado... es con la gente.",
+   "scene": "Calle al atardecer: la gente pasa rápido (lapso de tiempo), Sam quieto en el centro.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s046",
+   "start": 111.95,
+   "end": 113.9,
+   "line": "Dejas de publicar fotos.",
+   "scene": "Detalle: pantalla del celular, perfil con la última foto de 2016.",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s047",
+   "start": 113.9,
+   "end": 115.55,
+   "line": "Tus vecinos empiezan a preguntar.",
+   "scene": "Dos vecinos susurran detrás de una reja mirando a Sam.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "murmur",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s048",
+   "start": 115.55,
+   "end": 117.4,
+   "line": "¿Tu hijo vive contigo?",
+   "scene": "Toma media: la vecina le pregunta a Sam: \"¿Tu hijo vive contigo?\"",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s049",
+   "start": 117.4,
+   "end": 118.95,
+   "line": "No. Soy yo.",
+   "scene": "Primer plano gigante de Sam, sonrisa incómoda: \"No. Soy yo.\"",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s050",
+   "start": 118.95,
+   "end": 121.25,
+   "line": "Te mudas cada diez años.",
+   "scene": "Sam carga cajas a un camión de mudanza; los años cambian: 2006, 2016, 2026.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 1.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s051",
+   "start": 121.25,
+   "end": 122.95,
+   "line": "Y tu perro, Toby...",
+   "scene": "Parque dorado: Toby cachorro salta alrededor de Sam. Etiqueta \"TOBY\".",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s052",
+   "start": 122.95,
+   "end": 123.95,
+   "line": "envejece.",
+   "scene": "Toby ya mayor camina lento junto a Sam.",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s053",
+   "start": 123.95,
+   "end": 125.8,
+   "line": "Su hocico se vuelve gris.",
+   "scene": "Detalle: el hocico de Toby se vuelve gris.",
+   "set": "park",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s054",
+   "start": 125.8,
+   "end": 128.5,
+   "line": "Tú lo cargas en brazos en su último paseo.",
+   "scene": "Toma abierta al atardecer: Sam carga a Toby en brazos en su último paseo.",
+   "set": "park",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s055",
+   "start": 128.5,
+   "end": 132.4,
+   "line": "Tus brazos tienen veinte años. Él tiene catorce.",
+   "scene": "Toma media: Sam abraza a Toby; etiquetas \"20\" y \"14\".",
+   "set": "park",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 2.6,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s056",
+   "start": 132.4,
+   "end": 135.2,
+   "line": "Y hay un costo. Nadie habla de él.",
+   "scene": "Noche: Sam solo junto a la ventana con lluvia. \"EL COSTO\".",
+   "set": "apartment",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "rain",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s057",
+   "start": 135.2,
+   "end": 138.75,
+   "line": "Cada persona que amas... se aleja un poco cada año.",
+   "scene": "Muelle al atardecer: un bote con Leo y mamá se aleja lentamente; Sam en el muelle.",
+   "set": "shore",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s058",
+   "start": 138.75,
+   "end": 140.9,
+   "line": "No se va. Envejece.",
+   "scene": "En el bote, Leo y mamá envejecen (canas, espalda curva); contador de años.",
+   "set": "shore",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s059",
+   "start": 140.9,
+   "end": 143.25,
+   "line": "Y tú te quedas en la orilla, mirando.",
+   "scene": "Toma muy abierta: Sam diminuto en la orilla mirando el bote lejano.",
+   "set": "shore",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s060",
+   "start": 143.25,
+   "end": 145.9,
+   "line": "¿Amigos nuevos? ¿Para qué?",
+   "scene": "Una compañera invita a Sam con la mano; Sam duda. \"¿AMIGOS NUEVOS?\"",
+   "set": "office",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s061",
+   "start": 145.9,
+   "end": 147.65,
+   "line": "Igual tendrás que mudarte.",
+   "scene": "Sam solo entre cajas de mudanza.",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s062",
+   "start": 147.65,
+   "end": 151.45,
+   "line": "La soledad larga sube el cortisol, la hormona del estrés.",
+   "scene": "Plano: medidor de CORTISOL subiendo con la soledad.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "riser",
+     "gain": -16
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 151.45,
+   "end": 155.3,
+   "line": "Tu cuerpo no envejece... pero tu ánimo sí se cansa.",
+   "scene": "Sam sentado en la cama de noche, encorvado, lluvia en la ventana.",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s064",
+   "start": 155.3,
+   "end": 157.8,
+   "line": "¿El problema? Esconderte funciona.",
+   "scene": "Sam disfrazado (capucha, lentes oscuros) camina por la calle: funciona.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s065",
+   "start": 157.8,
+   "end": 159.7,
+   "line": "Hasta que deja de funcionar.",
+   "scene": "Alguien lo señala, los lentes caen; falla técnica.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "glitch",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s066",
+   "start": 159.7,
+   "end": 163.15,
+   "line": "Y solo hay una persona que nunca te obligó a esconderte.",
+   "scene": "Exterior de la casa de mamá al anochecer, ventanas cálidas, acercamiento lento.",
+   "set": "momhouse",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s067",
+   "start": 163.15,
+   "end": 165.95,
+   "line": "Tu mamá. Tiene setenta y ocho años.",
+   "scene": "Cocina cálida: mamá (cárdigan rosa, moño gris) sonríe. Etiqueta \"78 AÑOS\".",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s068",
+   "start": 165.95,
+   "end": 167.35,
+   "line": "Camina despacio.",
+   "scene": "Mamá camina despacio con su bastón.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -20
+    },
+    {
+     "at": 0.9,
+     "name": "footstep",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s069",
+   "start": 167.35,
+   "end": 170.8,
+   "line": "Y en el marco de la puerta de la cocina... hay rayitas.",
+   "scene": "Detalle: el marco de la puerta de la cocina, la cámara sube hasta las rayitas de lápiz.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s070",
+   "start": 170.8,
+   "end": 172.27,
+   "line": "Una por cada cumpleaños.",
+   "scene": "Detalle del marco: las rayitas aparecen una por una con su edad.",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s071",
+   "start": 172.27,
+   "end": 175.2,
+   "line": "Las rayitas subieron hasta los veinte.",
+   "scene": "Las rayitas suben hasta \"20\" mientras una silueta crece a su lado.",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "counter",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s072",
+   "start": 175.2,
+   "end": 177.85,
+   "line": "Después se quedaron en el mismo lugar.",
+   "scene": "Después de 20, las rayitas se apilan en el mismo lugar (21, 22... 45).",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s073",
+   "start": 177.85,
+   "end": 180.3,
+   "line": "Pero ella nunca dejó de marcarlas.",
+   "scene": "Toma media: mamá marca la altura de Sam con el lápiz sobre su cabeza.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s074",
+   "start": 180.3,
+   "end": 183.65,
+   "line": "Cada año dibuja otra línea encima de la anterior.",
+   "scene": "Detalle: el lápiz traza otra línea encima de la anterior.",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s075",
+   "start": 183.65,
+   "end": 187.9,
+   "line": "Y escribe al lado: 'Igual de alto. Igual de mío.'",
+   "scene": "La letra de mamá aparece: \"Igual de alto. Igual de mío.\"",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s076",
+   "start": 187.9,
+   "end": 190.3,
+   "line": "¿Mamá, por qué sigues haciendo eso?",
+   "scene": "Toma media: Sam le pregunta a mamá junto al marco.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s077",
+   "start": 190.3,
+   "end": 193.8,
+   "line": "Porque los años no se miden en centímetros, Sam.",
+   "scene": "Primer plano gigante de mamá, sonrisa tierna: \"Porque los años no se miden en centímetros, Sam.\"",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s078",
+   "start": 193.8,
+   "end": 196.1,
+   "line": "Un martes, todo se rompe.",
+   "scene": "Frase \"UN MARTES\" y la pantalla se agrieta.",
+   "set": "void",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 196.1,
+   "end": 198.5,
+   "line": "Alguien encuentra tu foto de 2001.",
+   "scene": "Alguien en su laptop de noche encuentra la foto de 2001.",
+   "set": "laptop",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s080",
+   "start": 198.5,
+   "end": 201.05,
+   "line": "La pone junto a una de ayer. Mismo lunar.",
+   "scene": "Dos fotos lado a lado (2001 / AYER); círculo en el lunar: \"MISMO LUNAR\".",
+   "set": "photo",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.8,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s081",
+   "start": 201.05,
+   "end": 204.55,
+   "line": "La publicación se vuelve viral en una noche.",
+   "scene": "Celular: vistas que se disparan, corazones, notificaciones: VIRAL.",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonebuzz",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "counter",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s082",
+   "start": 204.55,
+   "end": 208.5,
+   "line": "Al día siguiente, un auto negro se detiene frente a tu casa.",
+   "scene": "3D: calle gris de mañana, un auto negro llega y se detiene frente a la casa de Sam.",
+   "set": "streetnight3d",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s083",
+   "start": 208.5,
+   "end": 211.1,
+   "line": "Soy el señor Black. Trabajo para Eterna.",
+   "scene": "Toma media: el señor Black (gabardina, sombrero, lentes oscuros) frente a Sam en la puerta; tarjeta ETERNA.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s084",
+   "start": 211.1,
+   "end": 213.85,
+   "line": "Tu sangre vale más que cualquier país.",
+   "scene": "Primer plano gigante de Black medio en sombra: \"Tu sangre vale más que cualquier país.\"",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s085",
+   "start": 213.85,
+   "end": 216.45,
+   "line": "Te ofrece una cifra con nueve ceros.",
+   "scene": "Detalle: el contrato, la cifra crece cero por cero hasta nueve ceros.",
+   "set": "contract",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "counter",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s086",
+   "start": 216.45,
+   "end": 220.45,
+   "line": "A cambio, vives en su laboratorio. Sin fecha de salida.",
+   "scene": "Celda de laboratorio fría: Sam dentro de una caja de vidrio, letrero \"SALIDA: —\".",
+   "set": "labcell",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s087",
+   "start": 220.45,
+   "end": 223.15,
+   "line": "Y si no firmas... ¿Si no firmo?",
+   "scene": "Toma media: Black ofrece la pluma; Sam pregunta \"¿Si no firmo?\"",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s088",
+   "start": 223.15,
+   "end": 226.1,
+   "line": "Le damos tu nombre a cada periodista del mundo.",
+   "scene": "Plano: globo terráqueo, puntos de periodistas se encienden en todo el mundo.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -16
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 226.1,
+   "end": 228.3,
+   "line": "Tienes hasta mañana a las ocho.",
+   "scene": "Black se aleja hacia el auto; reloj \"08:00 MAÑANA\".",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s090",
+   "start": 228.3,
+   "end": 232.2,
+   "line": "Esa noche cenas con tu mamá. Ella se ríe de un chiste malo.",
+   "scene": "Noche: Sam y mamá cenan; mamá se ríe a carcajadas.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s091",
+   "start": 232.2,
+   "end": 234.8,
+   "line": "Y de pronto... se queda quieta.",
+   "scene": "Primer plano gigante de mamá: la risa se apaga, se queda quieta.",
+   "set": "kitchen",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s092",
+   "start": 234.8,
+   "end": 236.1,
+   "line": "La cuchara cae.",
+   "scene": "CÁMARA LENTA: la cuchara cae en el aire con gotas suspendidas.",
+   "set": "kitchen",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "slowmo",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 236.1,
+   "end": 238.05,
+   "line": "Su cuerpo se va hacia un lado.",
+   "scene": "Mamá se inclina hacia un lado; Sam se lanza a sostenerla.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s094",
+   "start": 238.05,
+   "end": 240.4,
+   "line": "No respira. Paro cardíaco.",
+   "scene": "Línea de latido roja que se aplana: \"PARO CARDÍACO\".",
+   "set": "blueprint",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 240.4,
+   "end": 243.95,
+   "line": "Llamas a emergencias. ¿La ambulancia? Ocho minutos.",
+   "scene": "Sam arrodillado junto a mamá con el celular: \"EMERGENCIAS\" y \"8 MIN\".",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "phonering",
+     "gain": -16
+    },
+    {
+     "at": 2.4,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s096",
+   "start": 243.95,
+   "end": 249.2,
+   "line": "Por cada minuto sin ayuda, la probabilidad de sobrevivir baja cerca de un diez por ciento.",
+   "scene": "Barra de supervivencia que baja 10 % por cada minuto.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 1.5,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 2.5,
+     "name": "tick",
+     "gain": -14
+    },
+    {
+     "at": 3.5,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 249.2,
+   "end": 251.6,
+   "line": "Pones las manos en el centro de su pecho.",
+   "scene": "Vista desde arriba: las manos de Sam en el centro del pecho de mamá.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s098",
+   "start": 251.6,
+   "end": 254.15,
+   "line": "Cinco centímetros de profundidad.",
+   "scene": "Diagrama de lado: manos comprimiendo el pecho, medida \"5 CM\".",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 254.15,
+   "end": 257.0,
+   "line": "Entre cien y ciento veinte compresiones por minuto.",
+   "scene": "Medidor: \"100–120 COMPRESIONES / MIN\" con pulso.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 257.0,
+   "end": 260.4,
+   "line": "Una persona normal se cansa en dos minutos.",
+   "scene": "Persona normal (línea) se cansa: barra de energía vacía a los \"2 MIN\".",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 260.4,
+   "end": 264.65,
+   "line": "¿Tú? Tus brazos tienen veinte años. No paras.",
+   "scene": "Primer plano gigante de Sam decidido, balanceándose al ritmo.",
+   "set": "kitchen",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s102",
+   "start": 264.65,
+   "end": 267.55,
+   "line": "Uno. Dos. Tres. Cuatro.",
+   "scene": "Toma media de lado: Sam comprime; números 1, 2, 3, 4 aparecen con cada palabra.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 0.87,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 1.83,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 2.73,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s103",
+   "start": 267.55,
+   "end": 269.3,
+   "line": "Minuto siete.",
+   "scene": "Cronómetro gigante \"07:00\", Sam no para.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "clock",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s104",
+   "start": 269.3,
+   "end": 270.35,
+   "line": "La sirena.",
+   "scene": "Luces rojas y azules entran por la ventana: la sirena.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s105",
+   "start": 270.35,
+   "end": 272.4,
+   "line": "Los paramédicos toman el control.",
+   "scene": "Paramédicos se arrodillan y toman el control; Sam se aparta exhausto.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s106",
+   "start": 272.4,
+   "end": 276.4,
+   "line": "¿Su corazón? Vuelve. Débil... pero vuelve.",
+   "scene": "Monitor: plano... ¡bip! latido débil, luego más fuerte.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "heartbeat",
+     "gain": -10
+    },
+    {
+     "at": 2.6,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 276.4,
+   "end": 279.5,
+   "line": "En el hospital, tu teléfono vibra. Es Black.",
+   "scene": "Habitación de hospital de noche: mamá en la cama, Sam en la silla; el teléfono vibra.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s108",
+   "start": 279.5,
+   "end": 283.0,
+   "line": "Sé dónde estás. Tenemos un tratamiento experimental para tu madre.",
+   "scene": "Pantalla del celular: llamada de \"BLACK · ETERNA\", ondas de voz.",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "phonebuzz",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s109",
+   "start": 283.0,
+   "end": 286.1,
+   "line": "Solo ven ahora. Firma y la ayudamos.",
+   "scene": "Primer plano gigante de Black en su auto bajo la lluvia, hablando por teléfono.",
+   "set": "carnight",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s110",
+   "start": 286.1,
+   "end": 288.05,
+   "line": "Miras el reloj.",
+   "scene": "Detalle: el reloj de la pared avanza.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "clock",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s111",
+   "start": 288.05,
+   "end": 289.2,
+   "line": "Miras la puerta.",
+   "scene": "La puerta de la habitación, luz del pasillo.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s112",
+   "start": 289.2,
+   "end": 290.95,
+   "line": "Miras su mano en la cama.",
+   "scene": "Detalle: la mano de mamá sobre la sábana, con la vía.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s113",
+   "start": 290.95,
+   "end": 293.65,
+   "line": "El laboratorio... o la mano de tu mamá.",
+   "scene": "Pantalla dividida: laboratorio frío a la izquierda, la mano de mamá cálida a la derecha.",
+   "set": "hospital",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s114",
+   "start": 293.65,
+   "end": 296.85,
+   "line": "No lo dudas. Te sientas. Le tomas la mano.",
+   "scene": "Toma media: Sam se sienta y le toma la mano a mamá.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s115",
+   "start": 296.85,
+   "end": 299.0,
+   "line": "Y apagas el teléfono.",
+   "scene": "Detalle: el celular se apaga.",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 0.7
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s116",
+   "start": 299.0,
+   "end": 301.8,
+   "line": "A las ocho, Black cumple su amenaza.",
+   "scene": "Black en su auto con la laptop, reloj 08:00, envía el correo.",
+   "set": "carnight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s117",
+   "start": 301.8,
+   "end": 303.6,
+   "line": "Pero llega... tarde.",
+   "scene": "Primer plano gigante de Black: sorpresa. \"TARDE\".",
+   "set": "carnight",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s118",
+   "start": 303.6,
+   "end": 306.2,
+   "line": "A las siete, tú ya contaste la verdad.",
+   "scene": "Celular grabando \"REC 7:00\", Sam en pantalla.",
+   "set": "phone",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s119",
+   "start": 306.2,
+   "end": 309.6,
+   "line": "Tú mismo. En un video. Sin esconderte.",
+   "scene": "Primer plano gigante de Sam frente a la cámara, sereno y decidido.",
+   "set": "corridor",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s120",
+   "start": 309.6,
+   "end": 314.55,
+   "line": "Y te ofreciste a hospitales públicos, con científicos de verdad, como la doctora Lee.",
+   "scene": "Laboratorio público luminoso: la doctora Lee y científicos le dan la mano a Sam.",
+   "set": "publiclab",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s121",
+   "start": 314.55,
+   "end": 319.0,
+   "line": "Pruebas abiertas. Resultados para todos. Nada a la venta.",
+   "scene": "Lista: PRUEBAS ABIERTAS ✓ RESULTADOS PARA TODOS ✓ NADA A LA VENTA ✓.",
+   "set": "blueprint",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "ding",
+     "gain": -14
+    },
+    {
+     "at": 1.15,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.2
+    },
+    {
+     "at": 3.15,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.4
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 319.0,
+   "end": 324.8,
+   "line": "Un laboratorio serio nunca te pide firmar esa misma noche, sin abogado y bajo amenaza.",
+   "scene": "Contrato con banderas rojas: ESA MISMA NOCHE ✗, SIN ABOGADO ✗, BAJO AMENAZA ✗.",
+   "set": "contract",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.8,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 3.8,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 4.8,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 324.8,
+   "end": 327.2,
+   "line": "Black se queda sin nada que vender.",
+   "scene": "Black solo junto a su auto bajo la lluvia, maletín vacío, se aleja.",
+   "set": "carnight",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s124",
+   "start": 327.2,
+   "end": 329.55,
+   "line": "Leo aparece en el hospital con café.",
+   "scene": "Pasillo del hospital: Leo llega con dos cafés.",
+   "set": "corridor",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 0.7,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s125",
+   "start": 329.55,
+   "end": 332.4,
+   "line": "Amigo. Siempre supe que eras raro.",
+   "scene": "Toma media: Leo le da el café a Sam: \"Amigo. Siempre supe que eras raro.\"",
+   "set": "corridor",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s126",
+   "start": 332.4,
+   "end": 334.5,
+   "line": "Y tu mamá abre los ojos.",
+   "scene": "Primer plano gigante de mamá abriendo los ojos.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s127",
+   "start": 334.5,
+   "end": 337.05,
+   "line": "Lo primero que pide... es un lápiz.",
+   "scene": "Detalle: Sam le pone un lápiz en la mano.",
+   "set": "hospital",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s128",
+   "start": 337.05,
+   "end": 340.85,
+   "line": "La llevas a casa. Ella se para frente al marco de la puerta.",
+   "scene": "Cocina de día: Sam acompaña a mamá hasta el marco de la puerta.",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s129",
+   "start": 340.85,
+   "end": 344.15,
+   "line": "Dibuja otra rayita. En el mismo lugar de siempre.",
+   "scene": "Detalle: mamá dibuja otra rayita en el mismo lugar.",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s130",
+   "start": 344.15,
+   "end": 347.4,
+   "line": "'Igual de alto. Igual de mío.'",
+   "scene": "La letra brilla: \"Igual de alto. Igual de mío.\" Mamá y Sam abrazados detrás.",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s131",
+   "start": 347.4,
+   "end": 350.7,
+   "line": "Y por primera vez en años... no tienes que esconderte.",
+   "scene": "Sam camina por la calle soleado sin disfraz; los vecinos lo saludan.",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s132",
+   "start": 350.7,
+   "end": 354.65,
+   "line": "Tres semanas después, llega una carta. Letra a mano.",
+   "scene": "Buzón: llega una carta escrita a mano. \"3 SEMANAS DESPUÉS\".",
+   "set": "mailbox",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s133",
+   "start": 354.65,
+   "end": 358.6,
+   "line": "'Lo vi en las noticias. Yo también me detuve a los veinte.",
+   "scene": "La carta: líneas de letra a mano aparecen sincronizadas.",
+   "set": "letter",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s134",
+   "start": 358.6,
+   "end": 362.1,
+   "line": "En 1890. Tenemos que hablar.'",
+   "scene": "Foto sepia de 1890: un joven idéntico de 20 años. Sam, impactado.",
+   "set": "letter",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s135",
+   "start": 362.1,
+   "end": 368.8,
+   "line": "¿Y tú qué harías con veinte años para siempre? Cuéntanos a qué edad te gustaría detenerte en los comentarios.",
+   "scene": "Pantalla final: pregunta, burbuja de comentario, botón de suscripción y el reparto.",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s136",
+   "start": 368.8,
+   "end": 376.2,
+   "line": "Y si la rayita de tu mamá te tocó el corazón... dale like y suscríbete para la Parte Dos.",
+   "scene": "Final: el marco con las rayitas y un corazón; \"PARTE 2\".",
+   "set": "frame",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 54.15,
+   "mood": "playful",
+   "intensity": 0.4
+  },
+  {
+   "start": 54.15,
+   "end": 108.05,
+   "mood": "wonder",
+   "intensity": 0.55
+  },
+  {
+   "start": 108.05,
+   "end": 159.7,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 159.7,
+   "end": 193.8,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 193.8,
+   "end": 228.3,
+   "mood": "mystery",
+   "intensity": 0.55
+  },
+  {
+   "start": 228.3,
+   "end": 276.4,
+   "mood": "tension",
+   "intensity": 0.75
+  },
+  {
+   "start": 276.4,
+   "end": 303.6,
+   "mood": "dark",
+   "intensity": 0.5
+  },
+  {
+   "start": 303.6,
+   "end": 350.7,
+   "mood": "triumph",
+   "intensity": 0.65
+  },
+  {
+   "start": 350.7,
+   "end": 362.1,
+   "mood": "mystery",
+   "intensity": 0.6
+  },
+  {
+   "start": 362.1,
+   "end": 376.2,
+   "mood": "hopeful",
+   "intensity": 0.45
+  }
+ ],
+ "sfx": []
+}

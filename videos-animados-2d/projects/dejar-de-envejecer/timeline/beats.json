@@ -1,0 +1,906 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.0,
+  "speechEnd": 3.62,
+  "text": "El portero del bar mira tu identificación. Luego te mira a ti.",
+  "end": 4.01
+ },
+ {
+  "i": 1,
+  "start": 4.01,
+  "speechStart": 4.16,
+  "speechEnd": 5.94,
+  "text": "Luego otra vez la identificación.",
+  "end": 6.53
+ },
+ {
+  "i": 2,
+  "start": 6.53,
+  "speechStart": 6.68,
+  "speechEnd": 10.18,
+  "text": "Aquí dice que naciste en 1981. Sí.",
+  "end": 10.59
+ },
+ {
+  "i": 3,
+  "start": 10.59,
+  "speechStart": 10.74,
+  "speechEnd": 16.96,
+  "text": "¿Tienes cuarenta y cinco años? Sí. Amigo... ¿qué crema usas? Te llamas Sam.",
+  "end": 17.23
+ },
+ {
+  "i": 4,
+  "start": 17.23,
+  "speechStart": 17.38,
+  "speechEnd": 18.84,
+  "text": "Y hace veinticinco años...",
+  "end": 18.69
+ },
+ {
+  "i": 5,
+  "start": 18.69,
+  "speechStart": 18.84,
+  "speechEnd": 20.38,
+  "text": "dejaste de envejecer.",
+  "end": 20.73
+ },
+ {
+  "i": 6,
+  "start": 20.73,
+  "speechStart": 20.88,
+  "speechEnd": 23.32,
+  "text": "Tu mejor amigo Leo ya tiene canas.",
+  "end": 23.17
+ },
+ {
+  "i": 7,
+  "start": 23.17,
+  "speechStart": 23.32,
+  "speechEnd": 25.84,
+  "text": "Tú tienes la misma cara de tu foto de graduación.",
+  "end": 26.17
+ },
+ {
+  "i": 8,
+  "start": 26.17,
+  "speechStart": 26.32,
+  "speechEnd": 28.68,
+  "text": "Tu rodilla no cruje. Y en tu billetera...",
+  "end": 28.53
+ },
+ {
+  "i": 9,
+  "start": 28.53,
+  "speechStart": 28.68,
+  "speechEnd": 31.38,
+  "text": "sigue el carnet de estudiante. Por si acaso.",
+  "end": 31.75
+ },
+ {
+  "i": 10,
+  "start": 31.75,
+  "speechStart": 31.9,
+  "speechEnd": 36.06,
+  "text": "Una persona normal empieza a perder masa muscular después de los treinta.",
+  "end": 35.91
+ },
+ {
+  "i": 11,
+  "start": 35.91,
+  "speechStart": 36.06,
+  "speechEnd": 39.34,
+  "text": "Entre tres y ocho por ciento cada década. ¿Tú?",
+  "end": 39.19
+ },
+ {
+  "i": 12,
+  "start": 39.19,
+  "speechStart": 39.34,
+  "speechEnd": 44.0,
+  "text": "Te detuviste a los veinte. Para siempre. Pero hay una regla.",
+  "end": 44.31
+ },
+ {
+  "i": 13,
+  "start": 44.31,
+  "speechStart": 44.46,
+  "speechEnd": 45.88,
+  "text": "Tu cuerpo dejó de envejecer.",
+  "end": 46.15
+ },
+ {
+  "i": 14,
+  "start": 46.15,
+  "speechStart": 46.3,
+  "speechEnd": 52.26,
+  "text": "No dejó de ser un cuerpo. Te puedes romper. Te puedes enfermar. Puedes morir. Solo...",
+  "end": 52.11
+ },
+ {
+  "i": 15,
+  "start": 52.11,
+  "speechStart": 52.26,
+  "speechEnd": 53.84,
+  "text": "no te haces viejo.",
+  "end": 54.17
+ },
+ {
+  "i": 16,
+  "start": 54.17,
+  "speechStart": 54.32,
+  "speechEnd": 58.42,
+  "text": "¿Y qué pasaría si dejaras de envejecer a los veinte? Primero, lo bueno.",
+  "end": 58.69
+ },
+ {
+  "i": 17,
+  "start": 58.69,
+  "speechStart": 58.84,
+  "speechEnd": 61.44,
+  "text": "A tus cuarenta corres como a tus veinte.",
+  "end": 61.29
+ },
+ {
+  "i": 18,
+  "start": 61.29,
+  "speechStart": 61.44,
+  "speechEnd": 68.12,
+  "text": "Leo jadea en la cancha. Tú ni sudas. Bro. Te odio. Con cariño. Pero te odio.",
+  "end": 68.47
+ },
+ {
+  "i": 19,
+  "start": 68.47,
+  "speechStart": 68.62,
+  "speechEnd": 69.96,
+  "text": "Después, lo raro.",
+  "end": 70.23
+ },
+ {
+  "i": 20,
+  "start": 70.23,
+  "speechStart": 70.38,
+  "speechEnd": 73.42,
+  "text": "Tu jefe es más joven que tú. ¿Y los clientes?",
+  "end": 73.59
+ },
+ {
+  "i": 21,
+  "start": 73.59,
+  "speechStart": 73.74,
+  "speechEnd": 76.3,
+  "text": "Creen que eres el practicante. Vas al médico.",
+  "end": 76.75
+ },
+ {
+  "i": 22,
+  "start": 76.75,
+  "speechStart": 76.9,
+  "speechEnd": 78.42,
+  "text": "La doctora mira tus análisis.",
+  "end": 78.79
+ },
+ {
+  "i": 23,
+  "start": 78.79,
+  "speechStart": 78.94,
+  "speechEnd": 80.64,
+  "text": "Densidad ósea de veinte años.",
+  "end": 80.49
+ },
+ {
+  "i": 24,
+  "start": 80.49,
+  "speechStart": 80.64,
+  "speechEnd": 83.32,
+  "text": "Presión perfecta. Arterias limpias.",
+  "end": 83.65
+ },
+ {
+  "i": 25,
+  "start": 83.65,
+  "speechStart": 83.8,
+  "speechEnd": 85.92,
+  "text": "¿Seguro que esta fecha de nacimiento está bien?",
+  "end": 85.77
+ },
+ {
+  "i": 26,
+  "start": 85.77,
+  "speechStart": 85.92,
+  "speechEnd": 87.66,
+  "text": "Bastante seguro, sí.",
+  "end": 88.03
+ },
+ {
+  "i": 27,
+  "start": 88.03,
+  "speechStart": 88.18,
+  "speechEnd": 89.84,
+  "text": "Tu cuerpo sigue renovándose.",
+  "end": 90.15
+ },
+ {
+  "i": 28,
+  "start": 90.15,
+  "speechStart": 90.3,
+  "speechEnd": 93.38,
+  "text": "Tus glóbulos rojos se reemplazan cada ciento veinte días.",
+  "end": 93.75
+ },
+ {
+  "i": 29,
+  "start": 93.75,
+  "speechStart": 93.9,
+  "speechEnd": 96.5,
+  "text": "Tu corazón late unas cien mil veces al día.",
+  "end": 96.77
+ },
+ {
+  "i": 30,
+  "start": 96.77,
+  "speechStart": 96.92,
+  "speechEnd": 98.28,
+  "text": "Pero algo dentro de ti...",
+  "end": 98.13
+ },
+ {
+  "i": 31,
+  "start": 98.13,
+  "speechStart": 98.28,
+  "speechEnd": 100.4,
+  "text": "dejó de contar. A favor:",
+  "end": 100.73
+ },
+ {
+  "i": 32,
+  "start": 100.73,
+  "speechStart": 100.88,
+  "speechEnd": 107.82,
+  "text": "nunca necesitas lentes para leer. En contra: el sol te quema igual. No eres inmortal. Solo joven.",
+  "end": 108.07
+ },
+ {
+  "i": 33,
+  "start": 108.07,
+  "speechStart": 108.22,
+  "speechEnd": 110.44,
+  "text": "Pero donde se pone realmente complicado...",
+  "end": 110.29
+ },
+ {
+  "i": 34,
+  "start": 110.29,
+  "speechStart": 110.44,
+  "speechEnd": 113.4,
+  "text": "es con la gente. Dejas de publicar fotos.",
+  "end": 113.93
+ },
+ {
+  "i": 35,
+  "start": 113.93,
+  "speechStart": 114.08,
+  "speechEnd": 115.72,
+  "text": "Tus vecinos empiezan a preguntar.",
+  "end": 115.57
+ },
+ {
+  "i": 36,
+  "start": 115.57,
+  "speechStart": 115.72,
+  "speechEnd": 118.8,
+  "text": "¿Tu hijo vive contigo? No. Soy yo.",
+  "end": 119.01
+ },
+ {
+  "i": 37,
+  "start": 119.01,
+  "speechStart": 119.16,
+  "speechEnd": 123.64,
+  "text": "Te mudas cada diez años. Y tu perro, Toby... envejece.",
+  "end": 123.99
+ },
+ {
+  "i": 38,
+  "start": 123.99,
+  "speechStart": 124.14,
+  "speechEnd": 125.48,
+  "text": "Su hocico se vuelve gris.",
+  "end": 125.81
+ },
+ {
+  "i": 39,
+  "start": 125.81,
+  "speechStart": 125.96,
+  "speechEnd": 128.26,
+  "text": "Tú lo cargas en brazos en su último paseo.",
+  "end": 128.51
+ },
+ {
+  "i": 40,
+  "start": 128.51,
+  "speechStart": 128.66,
+  "speechEnd": 130.4,
+  "text": "Tus brazos tienen veinte años.",
+  "end": 130.85
+ },
+ {
+  "i": 41,
+  "start": 130.85,
+  "speechStart": 131.0,
+  "speechEnd": 134.94,
+  "text": "Él tiene catorce. Y hay un costo. Nadie habla de él.",
+  "end": 135.19
+ },
+ {
+  "i": 42,
+  "start": 135.19,
+  "speechStart": 135.34,
+  "speechEnd": 136.66,
+  "text": "Cada persona que amas...",
+  "end": 136.51
+ },
+ {
+  "i": 43,
+  "start": 136.51,
+  "speechStart": 136.66,
+  "speechEnd": 140.52,
+  "text": "se aleja un poco cada año. No se va. Envejece.",
+  "end": 140.89
+ },
+ {
+  "i": 44,
+  "start": 140.89,
+  "speechStart": 141.04,
+  "speechEnd": 147.22,
+  "text": "Y tú te quedas en la orilla, mirando. ¿Amigos nuevos? ¿Para qué? Igual tendrás que mudarte.",
+  "end": 147.65
+ },
+ {
+  "i": 45,
+  "start": 147.65,
+  "speechStart": 147.8,
+  "speechEnd": 151.06,
+  "text": "La soledad larga sube el cortisol, la hormona del estrés.",
+  "end": 151.45
+ },
+ {
+  "i": 46,
+  "start": 151.45,
+  "speechStart": 151.6,
+  "speechEnd": 152.92,
+  "text": "Tu cuerpo no envejece...",
+  "end": 153.11
+ },
+ {
+  "i": 47,
+  "start": 153.11,
+  "speechStart": 153.26,
+  "speechEnd": 157.52,
+  "text": "pero tu ánimo sí se cansa. ¿El problema? Esconderte funciona.",
+  "end": 157.77
+ },
+ {
+  "i": 48,
+  "start": 157.77,
+  "speechStart": 157.92,
+  "speechEnd": 159.52,
+  "text": "Hasta que deja de funcionar.",
+  "end": 159.71
+ },
+ {
+  "i": 49,
+  "start": 159.71,
+  "speechStart": 159.86,
+  "speechEnd": 163.8,
+  "text": "Y solo hay una persona que nunca te obligó a esconderte. Tu mamá.",
+  "end": 163.65
+ },
+ {
+  "i": 50,
+  "start": 163.65,
+  "speechStart": 163.8,
+  "speechEnd": 167.06,
+  "text": "Tiene setenta y ocho años. Camina despacio.",
+  "end": 167.35
+ },
+ {
+  "i": 51,
+  "start": 167.35,
+  "speechStart": 167.5,
+  "speechEnd": 170.46,
+  "text": "Y en el marco de la puerta de la cocina... hay rayitas.",
+  "end": 170.81
+ },
+ {
+  "i": 52,
+  "start": 170.81,
+  "speechStart": 170.96,
+  "speechEnd": 172.42,
+  "text": "Una por cada cumpleaños.",
+  "end": 172.27
+ },
+ {
+  "i": 53,
+  "start": 172.27,
+  "speechStart": 172.42,
+  "speechEnd": 175.34,
+  "text": "Las rayitas subieron hasta los veinte.",
+  "end": 175.19
+ },
+ {
+  "i": 54,
+  "start": 175.19,
+  "speechStart": 175.34,
+  "speechEnd": 177.6,
+  "text": "Después se quedaron en el mismo lugar.",
+  "end": 177.87
+ },
+ {
+  "i": 55,
+  "start": 177.87,
+  "speechStart": 178.02,
+  "speechEnd": 179.92,
+  "text": "Pero ella nunca dejó de marcarlas.",
+  "end": 180.31
+ },
+ {
+  "i": 56,
+  "start": 180.31,
+  "speechStart": 180.46,
+  "speechEnd": 184.78,
+  "text": "Cada año dibuja otra línea encima de la anterior. Y escribe al lado:",
+  "end": 184.63
+ },
+ {
+  "i": 57,
+  "start": 184.63,
+  "speechStart": 184.78,
+  "speechEnd": 186.1,
+  "text": "'Igual de alto.",
+  "end": 186.53
+ },
+ {
+  "i": 58,
+  "start": 186.53,
+  "speechStart": 186.68,
+  "speechEnd": 188.02,
+  "text": "Igual de mío.'",
+  "end": 187.87
+ },
+ {
+  "i": 59,
+  "start": 187.87,
+  "speechStart": 188.02,
+  "speechEnd": 189.96,
+  "text": "¿Mamá, por qué sigues haciendo eso?",
+  "end": 190.33
+ },
+ {
+  "i": 60,
+  "start": 190.33,
+  "speechStart": 190.48,
+  "speechEnd": 193.24,
+  "text": "Porque los años no se miden en centímetros, Sam.",
+  "end": 193.79
+ },
+ {
+  "i": 61,
+  "start": 193.79,
+  "speechStart": 193.94,
+  "speechEnd": 195.74,
+  "text": "Un martes, todo se rompe.",
+  "end": 196.09
+ },
+ {
+  "i": 62,
+  "start": 196.09,
+  "speechStart": 196.24,
+  "speechEnd": 198.12,
+  "text": "Alguien encuentra tu foto de 2001.",
+  "end": 198.49
+ },
+ {
+  "i": 63,
+  "start": 198.49,
+  "speechStart": 198.64,
+  "speechEnd": 201.18,
+  "text": "La pone junto a una de ayer. Mismo lunar.",
+  "end": 201.03
+ },
+ {
+  "i": 64,
+  "start": 201.03,
+  "speechStart": 201.18,
+  "speechEnd": 204.02,
+  "text": "La publicación se vuelve viral en una noche.",
+  "end": 204.55
+ },
+ {
+  "i": 65,
+  "start": 204.55,
+  "speechStart": 204.7,
+  "speechEnd": 210.8,
+  "text": "Al día siguiente, un auto negro se detiene frente a tu casa. Soy el señor Black. Trabajo para Eterna.",
+  "end": 211.09
+ },
+ {
+  "i": 66,
+  "start": 211.09,
+  "speechStart": 211.24,
+  "speechEnd": 213.4,
+  "text": "Tu sangre vale más que cualquier país.",
+  "end": 213.87
+ },
+ {
+  "i": 67,
+  "start": 213.87,
+  "speechStart": 214.02,
+  "speechEnd": 216.12,
+  "text": "Te ofrece una cifra con nueve ceros.",
+  "end": 216.45
+ },
+ {
+  "i": 68,
+  "start": 216.45,
+  "speechStart": 216.6,
+  "speechEnd": 222.88,
+  "text": "A cambio, vives en su laboratorio. Sin fecha de salida. Y si no firmas... ¿Si no firmo?",
+  "end": 223.15
+ },
+ {
+  "i": 69,
+  "start": 223.15,
+  "speechStart": 223.3,
+  "speechEnd": 225.84,
+  "text": "Le damos tu nombre a cada periodista del mundo.",
+  "end": 226.11
+ },
+ {
+  "i": 70,
+  "start": 226.11,
+  "speechStart": 226.26,
+  "speechEnd": 228.44,
+  "text": "Tienes hasta mañana a las ocho.",
+  "end": 228.29
+ },
+ {
+  "i": 71,
+  "start": 228.29,
+  "speechStart": 228.44,
+  "speechEnd": 230.02,
+  "text": "Esa noche cenas con tu mamá.",
+  "end": 229.87
+ },
+ {
+  "i": 72,
+  "start": 229.87,
+  "speechStart": 230.02,
+  "speechEnd": 235.8,
+  "text": "Ella se ríe de un chiste malo. Y de pronto... se queda quieta. La cuchara cae.",
+  "end": 236.09
+ },
+ {
+  "i": 73,
+  "start": 236.09,
+  "speechStart": 236.24,
+  "speechEnd": 242.7,
+  "text": "Su cuerpo se va hacia un lado. No respira. Paro cardíaco. Llamas a emergencias. ¿La ambulancia?",
+  "end": 242.55
+ },
+ {
+  "i": 74,
+  "start": 242.55,
+  "speechStart": 242.7,
+  "speechEnd": 243.74,
+  "text": "Ocho minutos.",
+  "end": 244.25
+ },
+ {
+  "i": 75,
+  "start": 244.25,
+  "speechStart": 244.4,
+  "speechEnd": 249.36,
+  "text": "Por cada minuto sin ayuda, la probabilidad de sobrevivir baja cerca de un diez por ciento.",
+  "end": 249.21
+ },
+ {
+  "i": 76,
+  "start": 249.21,
+  "speechStart": 249.36,
+  "speechEnd": 251.74,
+  "text": "Pones las manos en el centro de su pecho.",
+  "end": 251.59
+ },
+ {
+  "i": 77,
+  "start": 251.59,
+  "speechStart": 251.74,
+  "speechEnd": 253.94,
+  "text": "Cinco centímetros de profundidad.",
+  "end": 254.15
+ },
+ {
+  "i": 78,
+  "start": 254.15,
+  "speechStart": 254.3,
+  "speechEnd": 257.16,
+  "text": "Entre cien y ciento veinte compresiones por minuto.",
+  "end": 257.01
+ },
+ {
+  "i": 79,
+  "start": 257.01,
+  "speechStart": 257.16,
+  "speechEnd": 260.76,
+  "text": "Una persona normal se cansa en dos minutos. ¿Tú?",
+  "end": 261.05
+ },
+ {
+  "i": 80,
+  "start": 261.05,
+  "speechStart": 261.2,
+  "speechEnd": 267.68,
+  "text": "Tus brazos tienen veinte años. No paras. Uno. Dos. Tres. Cuatro.",
+  "end": 267.53
+ },
+ {
+  "i": 81,
+  "start": 267.53,
+  "speechStart": 267.68,
+  "speechEnd": 270.04,
+  "text": "Minuto siete. La sirena.",
+  "end": 270.33
+ },
+ {
+  "i": 82,
+  "start": 270.33,
+  "speechStart": 270.48,
+  "speechEnd": 276.04,
+  "text": "Los paramédicos toman el control. ¿Su corazón? Vuelve. Débil... pero vuelve.",
+  "end": 276.37
+ },
+ {
+  "i": 83,
+  "start": 276.37,
+  "speechStart": 276.52,
+  "speechEnd": 280.38,
+  "text": "En el hospital, tu teléfono vibra. Es Black. Sé dónde estás.",
+  "end": 280.77
+ },
+ {
+  "i": 84,
+  "start": 280.77,
+  "speechStart": 280.92,
+  "speechEnd": 283.16,
+  "text": "Tenemos un tratamiento experimental para tu madre.",
+  "end": 283.01
+ },
+ {
+  "i": 85,
+  "start": 283.01,
+  "speechStart": 283.16,
+  "speechEnd": 286.26,
+  "text": "Solo ven ahora. Firma y la ayudamos.",
+  "end": 286.11
+ },
+ {
+  "i": 86,
+  "start": 286.11,
+  "speechStart": 286.26,
+  "speechEnd": 291.86,
+  "text": "Miras el reloj. Miras la puerta. Miras su mano en la cama. El laboratorio...",
+  "end": 291.71
+ },
+ {
+  "i": 87,
+  "start": 291.71,
+  "speechStart": 291.86,
+  "speechEnd": 297.0,
+  "text": "o la mano de tu mamá. No lo dudas. Te sientas. Le tomas la mano.",
+  "end": 296.85
+ },
+ {
+  "i": 88,
+  "start": 296.85,
+  "speechStart": 297.0,
+  "speechEnd": 298.54,
+  "text": "Y apagas el teléfono.",
+  "end": 299.03
+ },
+ {
+  "i": 89,
+  "start": 299.03,
+  "speechStart": 299.18,
+  "speechEnd": 303.1,
+  "text": "A las ocho, Black cumple su amenaza. Pero llega... tarde.",
+  "end": 303.61
+ },
+ {
+  "i": 90,
+  "start": 303.61,
+  "speechStart": 303.76,
+  "speechEnd": 309.24,
+  "text": "A las siete, tú ya contaste la verdad. Tú mismo. En un video. Sin esconderte.",
+  "end": 309.61
+ },
+ {
+  "i": 91,
+  "start": 309.61,
+  "speechStart": 309.76,
+  "speechEnd": 315.7,
+  "text": "Y te ofreciste a hospitales públicos, con científicos de verdad, como la doctora Lee. Pruebas abiertas.",
+  "end": 315.55
+ },
+ {
+  "i": 92,
+  "start": 315.55,
+  "speechStart": 315.7,
+  "speechEnd": 318.72,
+  "text": "Resultados para todos. Nada a la venta.",
+  "end": 318.99
+ },
+ {
+  "i": 93,
+  "start": 318.99,
+  "speechStart": 319.14,
+  "speechEnd": 324.44,
+  "text": "Un laboratorio serio nunca te pide firmar esa misma noche, sin abogado y bajo amenaza.",
+  "end": 324.83
+ },
+ {
+  "i": 94,
+  "start": 324.83,
+  "speechStart": 324.98,
+  "speechEnd": 326.74,
+  "text": "Black se queda sin nada que vender.",
+  "end": 327.23
+ },
+ {
+  "i": 95,
+  "start": 327.23,
+  "speechStart": 327.38,
+  "speechEnd": 330.1,
+  "text": "Leo aparece en el hospital con café. Amigo.",
+  "end": 330.43
+ },
+ {
+  "i": 96,
+  "start": 330.43,
+  "speechStart": 330.58,
+  "speechEnd": 332.04,
+  "text": "Siempre supe que eras raro.",
+  "end": 332.39
+ },
+ {
+  "i": 97,
+  "start": 332.39,
+  "speechStart": 332.54,
+  "speechEnd": 338.0,
+  "text": "Y tu mamá abre los ojos. Lo primero que pide... es un lápiz. La llevas a casa.",
+  "end": 338.39
+ },
+ {
+  "i": 98,
+  "start": 338.39,
+  "speechStart": 338.54,
+  "speechEnd": 340.4,
+  "text": "Ella se para frente al marco de la puerta.",
+  "end": 340.87
+ },
+ {
+  "i": 99,
+  "start": 340.87,
+  "speechStart": 341.02,
+  "speechEnd": 342.32,
+  "text": "Dibuja otra rayita.",
+  "end": 342.59
+ },
+ {
+  "i": 100,
+  "start": 342.59,
+  "speechStart": 342.74,
+  "speechEnd": 344.26,
+  "text": "En el mismo lugar de siempre.",
+  "end": 344.11
+ },
+ {
+  "i": 101,
+  "start": 344.11,
+  "speechStart": 344.26,
+  "speechEnd": 345.68,
+  "text": "'Igual de alto.",
+  "end": 346.11
+ },
+ {
+  "i": 102,
+  "start": 346.11,
+  "speechStart": 346.26,
+  "speechEnd": 347.54,
+  "text": "Igual de mío.'",
+  "end": 347.39
+ },
+ {
+  "i": 103,
+  "start": 347.39,
+  "speechStart": 347.54,
+  "speechEnd": 349.06,
+  "text": "Y por primera vez en años...",
+  "end": 349.33
+ },
+ {
+  "i": 104,
+  "start": 349.33,
+  "speechStart": 349.48,
+  "speechEnd": 350.82,
+  "text": "no tienes que esconderte.",
+  "end": 350.67
+ },
+ {
+  "i": 105,
+  "start": 350.67,
+  "speechStart": 350.82,
+  "speechEnd": 354.78,
+  "text": "Tres semanas después, llega una carta. Letra a mano.",
+  "end": 354.63
+ },
+ {
+  "i": 106,
+  "start": 354.63,
+  "speechStart": 354.78,
+  "speechEnd": 356.26,
+  "text": "'Lo vi en las noticias.",
+  "end": 356.57
+ },
+ {
+  "i": 107,
+  "start": 356.57,
+  "speechStart": 356.72,
+  "speechEnd": 359.44,
+  "text": "Yo también me detuve a los veinte. En 1890.",
+  "end": 360.45
+ },
+ {
+  "i": 108,
+  "start": 360.45,
+  "speechStart": 360.6,
+  "speechEnd": 362.24,
+  "text": "Tenemos que hablar.'",
+  "end": 362.09
+ },
+ {
+  "i": 109,
+  "start": 362.09,
+  "speechStart": 362.24,
+  "speechEnd": 364.72,
+  "text": "¿Y tú qué harías con veinte años para siempre?",
+  "end": 365.13
+ },
+ {
+  "i": 110,
+  "start": 365.13,
+  "speechStart": 365.28,
+  "speechEnd": 368.34,
+  "text": "Cuéntanos a qué edad te gustaría detenerte en los comentarios.",
+  "end": 368.79
+ },
+ {
+  "i": 111,
+  "start": 368.79,
+  "speechStart": 368.94,
+  "speechEnd": 371.52,
+  "text": "Y si la rayita de tu mamá te tocó el corazón...",
+  "end": 371.37
+ },
+ {
+  "i": 112,
+  "start": 371.37,
+  "speechStart": 371.52,
+  "speechEnd": 374.28,
+  "text": "dale like y suscríbete para la Parte Dos.",
+  "end": 375.78
+ }
+]
